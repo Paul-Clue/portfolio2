@@ -181,7 +181,7 @@ html, body{
   .projects-pic{
     @include box-1(#FFFFFF, 315px, 217.24px, 30px, 644px );
 
-    background: url("assets/img/tic-tac-toe.jpg");
+    background: url("assets/img/Screenshot(15).png");
     object-fit: cover;
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
@@ -197,9 +197,17 @@ html, body{
     top: 1012px;
   }
   #third-div{
+    background: url("assets/img/promo-site.png");
+    object-fit: cover;
+    //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
+    background-blend-mode: screen;
     top: 1382px;
   }
   #fourth-div{
+    background: url("assets/img/promo-site.png");
+    object-fit: cover;
+    //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
+    background-blend-mode: screen;
     top: 1754px;
   }
 
@@ -364,7 +372,7 @@ html, body{
   }
 
   .big-2{
-    top: 1313px;
+    top: 1295px;
   }
   .big-3{
     top: 1685px;
@@ -677,22 +685,22 @@ html, body{
   }
 
   .big-button{
-    @include box-2(315px, 59px, 530px, 995px);
+    @include box-2(315px, 59px, 560px, 980px);
 
     background: #4456FB;
     border-radius: 60px;
   }
 
   #big-button2{
-    left: 960px;
+    left: 980px;
     top:  995px;
   }
   #big-button3{
-    left: 530px;
+    left: 560px;
     top: 1291px;
   }
   #big-button4{
-    left: 960px;
+    left: 980px;
     top: 1291px;
   }
 
@@ -810,23 +818,23 @@ html, body{
   }
 
   .big-button-text{
-    @include box-4(#FFFFFF, 254.8px, 19px, 560px, 1015px, Poppins, bold, 16px );
+    @include box-4(#FFFFFF, 254.8px, 19px, 580px, 1000px, Poppins, bold, 16px );
 
     line-height: 105.3%;
     text-align: center;
   }
 
   .big-2{
-    left: 990px;
-    top: 1015px;
+    left: 1000px;
+    top: 1000px;
   }
   .big-3{
-    left: 560px;
-    top: 1315px;
+    left: 585px;
+    top: 1305px;
   }
   .big-4{
-    left: 990px;
-    top: 1315px;
+    left: 1010px;
+    top: 1305px;
   }
 
   //about-me

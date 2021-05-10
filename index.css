@@ -222,7 +222,7 @@ html, body {
   height: 217.24px;
   left: 30px;
   top: 644px;
-  background: url("assets/img/tic-tac-toe.jpg");
+  background: url("assets/img/Screenshot(15).png");
   object-fit: cover;
   background-blend-mode: screen;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -236,9 +236,15 @@ html, body {
   top: 1012px; }
 
 #third-div {
+  background: url("assets/img/promo-site.png");
+  object-fit: cover;
+  background-blend-mode: screen;
   top: 1382px; }
 
 #fourth-div {
+  background: url("assets/img/promo-site.png");
+  object-fit: cover;
+  background-blend-mode: screen;
   top: 1754px; }
 
 .projects-title {
@@ -444,7 +450,7 @@ html, body {
   top: 1997px; }
 
 .big-2 {
-  top: 1313px; }
+  top: 1295px; }
 
 .big-3 {
   top: 1685px; }
@@ -925,21 +931,21 @@ html, body {
     font-style: normal;
     width: 315px;
     height: 59px;
-    left: 530px;
-    top: 995px;
+    left: 560px;
+    top: 980px;
     background: #4456FB;
     border-radius: 60px; }
 
   #big-button2 {
-    left: 960px;
+    left: 980px;
     top: 995px; }
 
   #big-button3 {
-    left: 530px;
+    left: 560px;
     top: 1291px; }
 
   #big-button4 {
-    left: 960px;
+    left: 980px;
     top: 1291px; }
 
   .left-button {
@@ -1092,22 +1098,22 @@ html, body {
     color: #FFFFFF;
     width: 254.8px;
     height: 19px;
-    left: 560px;
-    top: 1015px;
+    left: 580px;
+    top: 1000px;
     line-height: 105.3%;
     text-align: center; }
 
   .big-2 {
-    left: 990px;
-    top: 1015px; }
+    left: 1000px;
+    top: 1000px; }
 
   .big-3 {
-    left: 560px;
-    top: 1315px; }
+    left: 585px;
+    top: 1305px; }
 
   .big-4 {
-    left: 990px;
-    top: 1315px; }
+    left: 1010px;
+    top: 1305px; }
 
   .about-me {
     left: 517px;

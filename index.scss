@@ -778,6 +778,29 @@ html, body{
     @include box-2(406px, 280px, 944px, 1382px);
   }
 
+  #second{
+    display: none;
+    top: 1035px;
+  }
+  #third{
+    display: none;
+    top: 1404.93px;
+  }
+  #fourth{
+    display: none;
+    top: 1778.05px;
+  }
+
+  #fifth{
+    display: none;
+    top: 2152px;
+  }
+
+  #sixth{
+    display: none;
+    top: 2526px;
+  }
+
   .big-button{
     @include box-2(315px, 59px, 560px, 980px);
 

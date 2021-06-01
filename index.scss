@@ -211,6 +211,22 @@ html, body{
     top: 1754px;
   }
 
+  #fifth-div{
+    background: url("assets/img/Screenshot(17).png");
+    object-fit: cover;
+    //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
+    background-blend-mode: screen;
+    top: 2126px;
+  }
+
+  #sixth-div{
+    background: url("assets/img/Screenshot(17).png");
+    object-fit: cover;
+    //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
+    background-blend-mode: screen;
+    top: 2498px;
+  }
+
   .projects-title{
     z-index: 4;
     @include box-4(#FFFFFF, 78.45px, 16.09px, 49.11px, 661.1px, Poppins, 600, 20px);
@@ -228,6 +244,16 @@ html, body{
   #fourth{
    
     top: 1778.05px;
+  }
+
+  #fifth{
+   
+    top: 2152px;
+  }
+
+  #sixth{
+   
+    top: 2526px;
   }
 
   .left-button{
@@ -269,6 +295,14 @@ html, body{
     z-index: 4;
     top: 2037px;
   }
+  #big-button5{
+    z-index: 4;
+    top: 2411px;
+  }
+  #big-button6{
+    z-index: 4;
+    top: 2785px;
+  }
 
   #left-button2{
     z-index: 4;
@@ -305,6 +339,32 @@ html, body{
   #right-button4{
     z-index: 4;
     top: 1991px;
+  }
+
+  #left-button5{
+    z-index: 4;
+    top: 2365px;
+  }
+  #middle-button5{
+    z-index: 4;
+    top: 2365px;
+  }
+  #right-button5{
+    z-index: 4;
+    top: 2365px;
+  }
+
+  #left-button6{
+    z-index: 4;
+    top: 2739px;
+  }
+  #middle-button6{
+    z-index: 4;
+    top: 2739px;
+  }
+  #right-button6{
+    z-index: 4;
+    top: 2739px;
   }
 
   .left-text{
@@ -371,41 +431,67 @@ html, body{
     top: 1997px;
   }
 
+  .l-5L{
+    top: 2372px;
+  }
+  .l-5M{
+    top: 2372px;
+  }
+  .l-5R{
+    top: 2372px;
+  }
+
+  .l-6L{
+    top: 2747px;
+  }
+  .l-6M{
+    top: 2747px;
+  }
+  .l-6R{
+    top: 2747px;
+  }
+
   .big-2{
     top: 1295px;
   }
   .big-3{
-    top: 1685px;
+    top: 1678px;
   }
   .big-4{
-    top: 2059px;
+    top: 2047px;
+  }
+  .big-5{
+    top: 2425px;
+  }
+  .big-6{
+    top: 2798px;
   }
 
   /* About me */
   .about-me{
-    @include box-4(#4F5461, 159px, 29px, 35px, 2156px, Sora, bold, 28px );
+    @include box-4(#4F5461, 159px, 29px, 35px, 2870px, Sora, bold, 28px );
 
     font-size: 28px;
     line-height: 105.3%;
   }
 
   .about-me2{
-    @include box-4(#737986, 310px, 111px, 35px, 2203px, Sora, normal, 16px );
+    @include box-4(#737986, 310px, 111px, 35px, 2917px, Sora, normal, 16px );
 
     line-height: 20px;
   }
 
   /* Rectangle 11 */
   .get-resume{
-    @include box-2(193px, 59px, 35px, 2351px );
+    @include box-2(193px, 59px, 35px, 3065px );
 
     background: #4456FB;
     border-radius: 60px;
   }
 
   .get-resume-text{
-    @include box-4(#FFFFFF, 156px, 19px, 55.44px, 2360px, Sora, bold, 16px );
-    
+    @include box-4(#FFFFFF, 156px, 19px, 55.44px, 3074px, Sora, bold, 16px );
+    z-index: 10;
     line-height: 105.3%;
     text-align: center;
   }
@@ -422,84 +508,84 @@ html, body{
 
   /* Rectangle 33 */
   .languages-background{
-    @include box-2(312px, 254px, 35px, 2451px);
+    @include box-2(312px, 254px, 35px, 3165px);
 
     background: #F5F8FD;
     border-radius: 10px;
   }
 
   .languages-text{
-    @include box-4(#4F5461, 145.44px, 23px, 67px, 2482px, Sora, bold, 22px );
+    @include box-4(#4F5461, 145.44px, 23px, 67px, 3196px, Sora, bold, 22px );
 
     line-height: 105.3%;
   }
 
   /* JavaScript (ES5/ES6) Ruby HTML CSS */
   .languages-text2{
-    @include box-4(#737986, 247px, 151px, 67px, 2524px, Sora, normal, 16px );
+    @include box-4(#737986, 247px, 151px, 67px, 3238px, Sora, normal, 16px );
 
     line-height: 242.5%;
   }
 
   .frameworks-background{
-    @include box-2(312px, 289px, 35px, 2723px);
+    @include box-2(312px, 289px, 35px, 3437px);
 
     background: #F5F8FD;
     border-radius: 10px;
   }
 
   .frameworks-text{
-    @include box-4(#4F5461, 140px, 23px, 61px, 2754px, Sora, bold, 22px );
+    @include box-4(#4F5461, 140px, 23px, 61px, 3468px, Sora, bold, 22px );
 
     line-height: 105.3%;
   }
 
   .frameworks-text2{
-    @include box-4(#737986, 217px, 206px, 61px, 2795px, Sora, normal, 16px );
+    @include box-4(#737986, 217px, 206px, 61px, 3509px, Sora, normal, 16px );
 
     line-height: 242.5%;
   }
 
   .skills-background{
-    @include box-2(312px, 326px, 35px, 3030px);
+    @include box-2(312px, 326px, 35px, 3744px);
 
     background: #F5F8FD;
     border-radius: 10px;
   }
 
   .skills-text{
-    @include box-4(#4F5461, 63px, 23px, 64px, 3061px, Sora, bold, 22px );
+    @include box-4(#4F5461, 63px, 23px, 64px, 3775px, Sora, bold, 22px );
 
     line-height: 105.3%;
   }
 
   .skills-text2{
-    @include box-4(#737986, 216px, 232px, 64px, 3102px, Sora, normal, 16px );
+    @include box-4(#737986, 216px, 232px, 64px, 3816px, Sora, normal, 16px );
 
     line-height: 242.5%;
   }
 
   .collaboration-text{
-    @include box-4(#4F5461, 213px, 58px, 35px, 3405px, Sora, bold, 28px );
+    @include box-4(#4F5461, 213px, 58px, 35px, 4119px, Sora, bold, 28px );
 
     line-height: 105.3%;
   }
 
   .collaboration-text2{
-    @include box-4(#737986, 312px, 84px, 35px, 3479px, Poppins, normal, 16px );
+    @include box-4(#737986, 312px, 84px, 35px, 4193px, Poppins, normal, 16px );
 
     line-height: 24px;
   }
 
   .footer-background{
-    @include box-2(375px, 750px, 0, 3700px);
+    @include box-2(375px, 750px, 0, 4414px);
 
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
   transform: matrix(1, 0, 0, -1, 0, 0);
   }
 
   #fname1{
-    @include box-2(332px, 59px, 22px, 3720px);
+    @include box-2(332px, 59px, 22px, 4434px);
   
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -509,7 +595,7 @@ html, body{
   }
 
   #fname2{
-    @include box-2(332px, 59px, 22px, 3800px);
+    @include box-2(332px, 59px, 22px, 4514px);
 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -519,7 +605,7 @@ html, body{
   }
 
   #fname3{
-    @include box-2(332px, 185px, 22px, 3900px);
+    @include box-2(332px, 185px, 22px, 4614px);
 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -534,52 +620,52 @@ html, body{
   }
 
   #form-button{
-    @include box-2(332px, 59px, 22px, 4105px);
+    @include box-2(332px, 59px, 22px, 4819px);
 
     background: #FA4969;
     border-radius: 60px;
   }
 
   .email{
-    @include box-4(#C5CBFE, 177px, 34px, 106px, 4200px, Sora, normal, 16px );
+    @include box-4(#C5CBFE, 177px, 34px, 106px, 4914px, Sora, normal, 16px );
 
     line-height: 20px;
     text-align: center;
   }
 
   .social2{
-    @include box-1(#FFFFFF, 349px, 104px, 13px, 4280px);
+    @include box-1(#FFFFFF, 349px, 104px, 13px, 4994px);
 
     background: #FFFFFF;
     border-radius: 20px;
   }
 
   .github2{
-    @include box-1(#FFFFFF, 27.46px, 27px, 30px, 4300px);
+    @include box-1(#FFFFFF, 27.46px, 27px, 30px, 5014px);
 
     background: #FFFFFF;
   }
 
   .in2{
-    @include box-1(#FFFFFF, 27px, 22.31px, 180px, 4300px);
+    @include box-1(#FFFFFF, 27px, 22.31px, 180px, 5014px);
 
     background: #FFFFFF;
   }
 
   .twitt2{
-    @include box-1(#FFFFFF, 27px, 22.31px, 320px, 4300px);
+    @include box-1(#FFFFFF, 27px, 22.31px, 320px, 5014px);
 
     background: #FFFFFF;
   }
 
   .hline{
-    @include box-1(#9999FF, 334px, 0, 21px, 4380px);
+    @include box-1(#9999FF, 334px, 0, 21px, 5094px);
     
     border: 2px solid #9999FF;
   }
 
   .bottom{
-    @include box-4(#C5CBFE, 194px, 30px, 91px, 4420px, Sora, normal, 16px );
+    @include box-4(#C5CBFE, 194px, 30px, 91px, 5134px, Sora, normal, 16px );
 
     line-height: 20px;
     text-align: center;
@@ -684,6 +770,14 @@ html, body{
     @include box-2(406px, 280px, 944px, 1085px);
   }
 
+  #fifth-div{
+    @include box-2(406px, 280px, 517px, 1382px);
+  }
+
+  #sixth-div{
+    @include box-2(406px, 280px, 944px, 1382px);
+  }
+
   .big-button{
     @include box-2(315px, 59px, 560px, 980px);
 
@@ -702,6 +796,14 @@ html, body{
   #big-button4{
     left: 980px;
     top: 1291px;
+  }
+  #big-button5{
+    left: 560px;
+    top: 1591px;
+  }
+  #big-button6{
+    left: 980px;
+    top: 1591px;
   }
 
   .left-button{
@@ -755,6 +857,27 @@ html, body{
   #right-button4{
     left: 1180px;
     top: 1110px;
+  }
+  #left-button5{
+    top: 1420px;
+  }
+  #middle-button5{
+    top: 1420px;
+  }
+  #right-button5{
+    top: 1420px;
+  }
+  #left-button6{
+    left: 960px;
+    top: 1420px;
+  }
+  #middle-button6{
+    left: 1060px;
+    top: 1420px;
+  }
+  #right-button6{
+    left: 1180px;
+    top: 1420px;
   }
 
   .left-text{
@@ -817,6 +940,32 @@ html, body{
     top: 1115px;
   }
 
+  .l-5L{
+    left: 535px;
+    top: 1425px;
+  }
+  .l-5M{
+    left: 630px;
+    top: 1425px;
+  }
+  .l-5R{
+    left: 750px;
+    top: 1425px;
+  }
+
+  .l-6L{
+    left: 965px;
+    top: 1425px;
+  }
+  .l-6M{
+    left: 1060px;
+    top: 1425px;
+  }
+  .l-6R{
+    left: 1180px;
+    top: 1425px;
+  }
+
   .big-button-text{
     @include box-4(#FFFFFF, 254.8px, 19px, 580px, 1000px, Poppins, bold, 16px );
 
@@ -836,147 +985,155 @@ html, body{
     left: 1010px;
     top: 1305px;
   }
+  .big-5{
+    left: 585px;
+    top: 1600px;
+  }
+  .big-6{
+    left: 1010px;
+    top: 1600px;
+  }
 
   //about-me
   .about-me{
     left: 517px;
-    top: 1450px;
+    top: 1700px;
   }
 
   .about-me2{
     left: 517px;
-    top: 1502px;
+    top: 1752px;
   }
 
   .get-resume{
     left: 517px;
-    top: 1645px;
+    top: 1895px;
   }
 
   .get-resume-text{
     left: 537.44px;
-    top: 1650px;
+    top: 1900px;
   }
 
   //LANGUAGES
   .languages-background{
     left: 517px;
-    top: 1790px;
+    top: 2040px;
   }
 
   .languages-text{
     left: 545px;
-    top: 1790px;
+    top: 2040px;
   }
 
   .languages-text2{
     left: 545px;
-    top: 1860px;
+    top: 2110px;
 
   }
 
   .frameworks-background{
     left: 850px;
-    top: 1790px;
+    top: 2040px;
   }
 
   .frameworks-text{
     left: 876px;
-    top: 1790px;
+    top: 2040px;
   }
 
   .frameworks-text2{
     left: 876px;
-    top: 1860px;
+    top: 2110px;
   }
 
   .skills-background{
     left: 1184px;
-    top: 1790px;
+    top: 2040px;
   }
 
   .skills-text{
     left: 1213px;
-    top: 1790px;
+    top: 2040px;
   }
 
   .skills-text2{
     left: 1213px;
-    top: 1860px;
+    top: 2110px;
   }
 
   //COLLABORATION
   .collaboration-text{
     width: 450px;
     left: 517px;
-    top: 2175px;
+    top: 2425px;
   }
   .collaboration-text2{
     width: 600px;
     left: 517px;
-    top: 2227px;
+    top: 2477px;
   }
 
   //FOOTER
   .footer-background{
-    @include box-2(1139px, 556px, 301px, 2367px);
+    @include box-2(1139px, 556px, 301px, 2617px);
 
     border-radius: 0 0 0 40%;
   }
 
   #fname1{
     left: 517px;
-    top: 2350px;
+    top: 2600px;
     }
   
     #fname2{
     left: 870px;
-    top: 2350px;
+    top: 2600px;
     }
   
     #fname3{
       width: 685px;
       left: 517px;
-      top: 2430px;
+      top: 2680px;
     }
   
     #labe{
       position:absolute;
-      top: 3660px;
+      top: 3910px;
     }
   
     #form-button{
       left: 517px;
-      top: 2670px;
+      top: 2920px;
     }
   
     .email{
       left: 1191px;
-      top: 2670px;
+      top: 2920px;
     }
   
     .github2{
       left: 1210px;
-      top: 2720px;
+      top: 2970px;
     }
   
     .in2{
       left: 1270px;
-      top: 2720px;
+      top: 2970px;
     }
   
     .twitt2{
-      @include box-2(30px, 30px, 1330px, 2720px);
+      @include box-2(30px, 30px, 1330px, 2970px);
     }
   
     .hline{
       width: 832px;
       left: 518px;
-      top: 2780px;
+      top: 3030px;
     }
   
     .bottom{
       left: 1177px;
-      top: 2820px;
+      top: 3070px;
     }
 }

@@ -247,6 +247,18 @@ html, body {
   background-blend-mode: screen;
   top: 1754px; }
 
+#fifth-div {
+  background: url("assets/img/Screenshot(17).png");
+  object-fit: cover;
+  background-blend-mode: screen;
+  top: 2126px; }
+
+#sixth-div {
+  background: url("assets/img/Screenshot(17).png");
+  object-fit: cover;
+  background-blend-mode: screen;
+  top: 2498px; }
+
 .projects-title {
   z-index: 4;
   position: absolute;
@@ -269,6 +281,12 @@ html, body {
 
 #fourth {
   top: 1778.05px; }
+
+#fifth {
+  top: 2152px; }
+
+#sixth {
+  top: 2526px; }
 
 .left-button {
   position: absolute;
@@ -326,6 +344,14 @@ html, body {
   z-index: 4;
   top: 2037px; }
 
+#big-button5 {
+  z-index: 4;
+  top: 2411px; }
+
+#big-button6 {
+  z-index: 4;
+  top: 2785px; }
+
 #left-button2 {
   z-index: 4;
   top: 1245px; }
@@ -361,6 +387,30 @@ html, body {
 #right-button4 {
   z-index: 4;
   top: 1991px; }
+
+#left-button5 {
+  z-index: 4;
+  top: 2365px; }
+
+#middle-button5 {
+  z-index: 4;
+  top: 2365px; }
+
+#right-button5 {
+  z-index: 4;
+  top: 2365px; }
+
+#left-button6 {
+  z-index: 4;
+  top: 2739px; }
+
+#middle-button6 {
+  z-index: 4;
+  top: 2739px; }
+
+#right-button6 {
+  z-index: 4;
+  top: 2739px; }
 
 .left-text {
   z-index: 5;
@@ -449,14 +499,38 @@ html, body {
 .l-4R {
   top: 1997px; }
 
+.l-5L {
+  top: 2372px; }
+
+.l-5M {
+  top: 2372px; }
+
+.l-5R {
+  top: 2372px; }
+
+.l-6L {
+  top: 2747px; }
+
+.l-6M {
+  top: 2747px; }
+
+.l-6R {
+  top: 2747px; }
+
 .big-2 {
   top: 1295px; }
 
 .big-3 {
-  top: 1685px; }
+  top: 1678px; }
 
 .big-4 {
-  top: 2059px; }
+  top: 2047px; }
+
+.big-5 {
+  top: 2425px; }
+
+.big-6 {
+  top: 2798px; }
 
 /* About me */
 .about-me {
@@ -469,7 +543,7 @@ html, body {
   width: 159px;
   height: 29px;
   left: 35px;
-  top: 2156px;
+  top: 2870px;
   font-size: 28px;
   line-height: 105.3%; }
 
@@ -483,7 +557,7 @@ html, body {
   width: 310px;
   height: 111px;
   left: 35px;
-  top: 2203px;
+  top: 2917px;
   line-height: 20px; }
 
 /* Rectangle 11 */
@@ -493,7 +567,7 @@ html, body {
   width: 193px;
   height: 59px;
   left: 35px;
-  top: 2351px;
+  top: 3065px;
   background: #4456FB;
   border-radius: 60px; }
 
@@ -507,7 +581,8 @@ html, body {
   width: 156px;
   height: 19px;
   left: 55.44px;
-  top: 2360px;
+  top: 3074px;
+  z-index: 10;
   line-height: 105.3%;
   text-align: center; }
 
@@ -528,7 +603,7 @@ html, body {
   width: 312px;
   height: 254px;
   left: 35px;
-  top: 2451px;
+  top: 3165px;
   background: #F5F8FD;
   border-radius: 10px; }
 
@@ -542,7 +617,7 @@ html, body {
   width: 145.44px;
   height: 23px;
   left: 67px;
-  top: 2482px;
+  top: 3196px;
   line-height: 105.3%; }
 
 /* JavaScript (ES5/ES6) Ruby HTML CSS */
@@ -556,7 +631,7 @@ html, body {
   width: 247px;
   height: 151px;
   left: 67px;
-  top: 2524px;
+  top: 3238px;
   line-height: 242.5%; }
 
 .frameworks-background {
@@ -565,7 +640,7 @@ html, body {
   width: 312px;
   height: 289px;
   left: 35px;
-  top: 2723px;
+  top: 3437px;
   background: #F5F8FD;
   border-radius: 10px; }
 
@@ -579,7 +654,7 @@ html, body {
   width: 140px;
   height: 23px;
   left: 61px;
-  top: 2754px;
+  top: 3468px;
   line-height: 105.3%; }
 
 .frameworks-text2 {
@@ -592,7 +667,7 @@ html, body {
   width: 217px;
   height: 206px;
   left: 61px;
-  top: 2795px;
+  top: 3509px;
   line-height: 242.5%; }
 
 .skills-background {
@@ -601,7 +676,7 @@ html, body {
   width: 312px;
   height: 326px;
   left: 35px;
-  top: 3030px;
+  top: 3744px;
   background: #F5F8FD;
   border-radius: 10px; }
 
@@ -615,7 +690,7 @@ html, body {
   width: 63px;
   height: 23px;
   left: 64px;
-  top: 3061px;
+  top: 3775px;
   line-height: 105.3%; }
 
 .skills-text2 {
@@ -628,7 +703,7 @@ html, body {
   width: 216px;
   height: 232px;
   left: 64px;
-  top: 3102px;
+  top: 3816px;
   line-height: 242.5%; }
 
 .collaboration-text {
@@ -641,7 +716,7 @@ html, body {
   width: 213px;
   height: 58px;
   left: 35px;
-  top: 3405px;
+  top: 4119px;
   line-height: 105.3%; }
 
 .collaboration-text2 {
@@ -654,7 +729,7 @@ html, body {
   width: 312px;
   height: 84px;
   left: 35px;
-  top: 3479px;
+  top: 4193px;
   line-height: 24px; }
 
 .footer-background {
@@ -663,7 +738,7 @@ html, body {
   width: 375px;
   height: 750px;
   left: 0;
-  top: 3700px;
+  top: 4414px;
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
   transform: matrix(1, 0, 0, -1, 0, 0); }
 
@@ -673,7 +748,7 @@ html, body {
   width: 332px;
   height: 59px;
   left: 22px;
-  top: 3720px;
+  top: 4434px;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.07);
   box-sizing: border-box;
@@ -686,7 +761,7 @@ html, body {
   width: 332px;
   height: 59px;
   left: 22px;
-  top: 3800px;
+  top: 4514px;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.07);
   box-sizing: border-box;
@@ -699,7 +774,7 @@ html, body {
   width: 332px;
   height: 185px;
   left: 22px;
-  top: 3900px;
+  top: 4614px;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.07);
   box-sizing: border-box;
@@ -716,7 +791,7 @@ html, body {
   width: 332px;
   height: 59px;
   left: 22px;
-  top: 4105px;
+  top: 4819px;
   background: #FA4969;
   border-radius: 60px; }
 
@@ -730,7 +805,7 @@ html, body {
   width: 177px;
   height: 34px;
   left: 106px;
-  top: 4200px;
+  top: 4914px;
   line-height: 20px;
   text-align: center; }
 
@@ -742,7 +817,7 @@ html, body {
   width: 349px;
   height: 104px;
   left: 13px;
-  top: 4280px;
+  top: 4994px;
   background: #FFFFFF;
   border-radius: 20px; }
 
@@ -754,7 +829,7 @@ html, body {
   width: 27.46px;
   height: 27px;
   left: 30px;
-  top: 4300px;
+  top: 5014px;
   background: #FFFFFF; }
 
 .in2 {
@@ -765,7 +840,7 @@ html, body {
   width: 27px;
   height: 22.31px;
   left: 180px;
-  top: 4300px;
+  top: 5014px;
   background: #FFFFFF; }
 
 .twitt2 {
@@ -776,7 +851,7 @@ html, body {
   width: 27px;
   height: 22.31px;
   left: 320px;
-  top: 4300px;
+  top: 5014px;
   background: #FFFFFF; }
 
 .hline {
@@ -787,7 +862,7 @@ html, body {
   width: 334px;
   height: 0;
   left: 21px;
-  top: 4380px;
+  top: 5094px;
   border: 2px solid #9999FF; }
 
 .bottom {
@@ -800,7 +875,7 @@ html, body {
   width: 194px;
   height: 30px;
   left: 91px;
-  top: 4420px;
+  top: 5134px;
   line-height: 20px;
   text-align: center; }
 
@@ -926,6 +1001,22 @@ html, body {
     left: 944px;
     top: 1085px; }
 
+  #fifth-div {
+    position: absolute;
+    font-style: normal;
+    width: 406px;
+    height: 280px;
+    left: 517px;
+    top: 1382px; }
+
+  #sixth-div {
+    position: absolute;
+    font-style: normal;
+    width: 406px;
+    height: 280px;
+    left: 944px;
+    top: 1382px; }
+
   .big-button {
     position: absolute;
     font-style: normal;
@@ -947,6 +1038,14 @@ html, body {
   #big-button4 {
     left: 980px;
     top: 1291px; }
+
+  #big-button5 {
+    left: 560px;
+    top: 1591px; }
+
+  #big-button6 {
+    left: 980px;
+    top: 1591px; }
 
   .left-button {
     position: absolute;
@@ -1010,6 +1109,27 @@ html, body {
   #right-button4 {
     left: 1180px;
     top: 1110px; }
+
+  #left-button5 {
+    top: 1420px; }
+
+  #middle-button5 {
+    top: 1420px; }
+
+  #right-button5 {
+    top: 1420px; }
+
+  #left-button6 {
+    left: 960px;
+    top: 1420px; }
+
+  #middle-button6 {
+    left: 1060px;
+    top: 1420px; }
+
+  #right-button6 {
+    left: 1180px;
+    top: 1420px; }
 
   .left-text {
     position: absolute;
@@ -1089,6 +1209,30 @@ html, body {
     left: 1180px;
     top: 1115px; }
 
+  .l-5L {
+    left: 535px;
+    top: 1425px; }
+
+  .l-5M {
+    left: 630px;
+    top: 1425px; }
+
+  .l-5R {
+    left: 750px;
+    top: 1425px; }
+
+  .l-6L {
+    left: 965px;
+    top: 1425px; }
+
+  .l-6M {
+    left: 1060px;
+    top: 1425px; }
+
+  .l-6R {
+    left: 1180px;
+    top: 1425px; }
+
   .big-button-text {
     position: absolute;
     font-style: normal;
@@ -1115,67 +1259,75 @@ html, body {
     left: 1010px;
     top: 1305px; }
 
+  .big-5 {
+    left: 585px;
+    top: 1600px; }
+
+  .big-6 {
+    left: 1010px;
+    top: 1600px; }
+
   .about-me {
     left: 517px;
-    top: 1450px; }
+    top: 1700px; }
 
   .about-me2 {
     left: 517px;
-    top: 1502px; }
+    top: 1752px; }
 
   .get-resume {
     left: 517px;
-    top: 1645px; }
+    top: 1895px; }
 
   .get-resume-text {
     left: 537.44px;
-    top: 1650px; }
+    top: 1900px; }
 
   .languages-background {
     left: 517px;
-    top: 1790px; }
+    top: 2040px; }
 
   .languages-text {
     left: 545px;
-    top: 1790px; }
+    top: 2040px; }
 
   .languages-text2 {
     left: 545px;
-    top: 1860px; }
+    top: 2110px; }
 
   .frameworks-background {
     left: 850px;
-    top: 1790px; }
+    top: 2040px; }
 
   .frameworks-text {
     left: 876px;
-    top: 1790px; }
+    top: 2040px; }
 
   .frameworks-text2 {
     left: 876px;
-    top: 1860px; }
+    top: 2110px; }
 
   .skills-background {
     left: 1184px;
-    top: 1790px; }
+    top: 2040px; }
 
   .skills-text {
     left: 1213px;
-    top: 1790px; }
+    top: 2040px; }
 
   .skills-text2 {
     left: 1213px;
-    top: 1860px; }
+    top: 2110px; }
 
   .collaboration-text {
     width: 450px;
     left: 517px;
-    top: 2175px; }
+    top: 2425px; }
 
   .collaboration-text2 {
     width: 600px;
     left: 517px;
-    top: 2227px; }
+    top: 2477px; }
 
   .footer-background {
     position: absolute;
@@ -1183,41 +1335,41 @@ html, body {
     width: 1139px;
     height: 556px;
     left: 301px;
-    top: 2367px;
+    top: 2617px;
     border-radius: 0 0 0 40%; }
 
   #fname1 {
     left: 517px;
-    top: 2350px; }
+    top: 2600px; }
 
   #fname2 {
     left: 870px;
-    top: 2350px; }
+    top: 2600px; }
 
   #fname3 {
     width: 685px;
     left: 517px;
-    top: 2430px; }
+    top: 2680px; }
 
   #labe {
     position: absolute;
-    top: 3660px; }
+    top: 3910px; }
 
   #form-button {
     left: 517px;
-    top: 2670px; }
+    top: 2920px; }
 
   .email {
     left: 1191px;
-    top: 2670px; }
+    top: 2920px; }
 
   .github2 {
     left: 1210px;
-    top: 2720px; }
+    top: 2970px; }
 
   .in2 {
     left: 1270px;
-    top: 2720px; }
+    top: 2970px; }
 
   .twitt2 {
     position: absolute;
@@ -1225,15 +1377,15 @@ html, body {
     width: 30px;
     height: 30px;
     left: 1330px;
-    top: 2720px; }
+    top: 2970px; }
 
   .hline {
     width: 832px;
     left: 518px;
-    top: 2780px; }
+    top: 3030px; }
 
   .bottom {
     left: 1177px;
-    top: 2820px; } }
+    top: 3070px; } }
 
 /*# sourceMappingURL=index.css.map */

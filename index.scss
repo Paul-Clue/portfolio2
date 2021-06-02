@@ -50,20 +50,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Sora:wght@500&display=swap');
 
 // For Mobile
-html, body{
-  max-width: 100%;
+body{
+  width: 100%;
   overflow-x: hidden;
   
 }
+
+.container{
+  width: 100vw;
+}
 // @media (max-width: 480px){
   .overlay {
-    @include box-2(375px, 550px, 0, 0 );
+    @include box-2(100%, 550px, 0, 0 );
 
     background: linear-gradient(248.05deg,  rgba(68.2%, 35.7%, 83.9%, 0.7)  24.1%, rgba(25.1%, 32.2%, 94.1%, 0.7) 99.44%);
     z-index: 2;
   }
   .top-div{
-    @include box-2(375px, 550px, 0, -1px );
+    @include box-2(100%, 550px, 0, -1px );
 
     background: url("assets/img/mb-background.jpg");
     object-fit: cover;
@@ -88,7 +92,7 @@ html, body{
   .mobile-nav{
     z-index: 3;
     visibility: visible;
-    @include box-4(#FFFFFF, 224px, 32px, 115px, 38px, Sora, 500, 16px);
+    @include box-4(#FFFFFF, 100%, 32px, 115px, 38px, Sora, 500, 16px);
 
     line-height: 338.5%;
   }
@@ -101,7 +105,7 @@ html, body{
   .mobile-nav2{
     z-index: 2;
     visibility: hidden;
-    @include box-4(#FFFFFF, 224px, 32px, 115px, 38px, Sora, 500, 16px );
+    @include box-4(#FFFFFF, 100%, 32px, 115px, 38px, Sora, 500, 16px );
 
   }
   .internal-link2{
@@ -112,27 +116,27 @@ html, body{
 
   .big-words-mobile{
     z-index: 2;
-    @include box-4(#FFFFFF, 317px, 43px, 30px, 131px, Sora, bold, 48px);
+    @include box-4(#FFFFFF, 100%, 43px, 30px, 131px, Sora, bold, 48px);
 
     line-height: 105.3%;
   }
 
   .big-words-mobile2{
     z-index: 2;
-    @include box-4(#FFFFFF, 375px, 29px, 30px, 194px, Sora, bold, 28px );
+    @include box-4(#FFFFFF, 100%, 29px, 30px, 194px, Sora, bold, 28px );
 
     line-height: 105.3%;
   }
 
   .intro{
     z-index: 2;
-    @include box-4(#FFFFFF, 317px, 136px, 30px, 257px, Sora, normal, 16px);
+    @include box-4(#FFFFFF, 100%, 136px, 30px, 257px, Sora, normal, 16px);
 
     line-height: 20px;
   }
 
   .social{
-    @include box-1(#FFFFFF, 349px, 104px, 13px, 405px);
+    @include box-1(#FFFFFF, 100%, 104px, 13px, 405px);
     
     background: #FFFFFF;
     border-radius: 20px;
@@ -140,7 +144,7 @@ html, body{
 
   .social-1{
     z-index: 2;
-    @include box-4(#4F5461, 254px, 34px, 31px, 425px, Sora, normal, 16px);
+    @include box-4(#4F5461, 100vw, 34px, 31px, 425px, Sora, normal, 16px);
 
     line-height: 20px;
   }
@@ -164,13 +168,13 @@ html, body{
   }
 
   .portfolio{
-    @include box-4(#4F5461, 480px, 29px, 28px, 585px, Sora, bold, 28px);
+    @include box-4(#4F5461, 100vw, 29px, 28px, 585px, Sora, bold, 28px);
 
     line-height: 105.3%;
   }
 
   .projects{
-    @include box-1(#FFFFFF, 315px, 217.24px, 30px, 644px );
+    @include box-1(#FFFFFF, 100vw, 217.24px, 30px, 644px );
 
     z-index: 2;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
@@ -179,7 +183,7 @@ html, body{
     border-radius: 10px;
   }
   .projects-pic{
-    @include box-1(#FFFFFF, 315px, 217.24px, 30px, 644px );
+    @include box-1(#FFFFFF, 100vw, 217.24px, 30px, 644px );
 
     background: url("assets/img/Screenshot(15).png");
     object-fit: cover;
@@ -481,7 +485,7 @@ html, body{
   }
 
   .about-me2{
-    @include box-4(#737986, 310px, 111px, 35px, 2917px, Sora, normal, 16px );
+    @include box-4(#737986, 100vw, 111px, 35px, 2917px, Sora, normal, 16px );
 
     line-height: 20px;
   }
@@ -513,7 +517,7 @@ html, body{
 
   /* Rectangle 33 */
   .languages-background{
-    @include box-2(312px, 254px, 35px, 3165px);
+    @include box-2(100vw, 254px, 35px, 3165px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -533,7 +537,7 @@ html, body{
   }
 
   .frameworks-background{
-    @include box-2(312px, 289px, 35px, 3437px);
+    @include box-2(100vw, 289px, 35px, 3437px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -552,7 +556,7 @@ html, body{
   }
 
   .skills-background{
-    @include box-2(312px, 326px, 35px, 3744px);
+    @include box-2(100vw, 326px, 35px, 3744px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -577,13 +581,13 @@ html, body{
   }
 
   .collaboration-text2{
-    @include box-4(#737986, 312px, 84px, 35px, 4193px, Poppins, normal, 16px );
+    @include box-4(#737986, 100vw, 84px, 35px, 4193px, Poppins, normal, 16px );
 
     line-height: 24px;
   }
 
   .footer-background{
-    @include box-2(375px, 750px, 0, 4414px);
+    @include box-2(100vw, 750px, 0, 4414px);
 
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
   transform: matrix(1, 0, 0, -1, 0, 0);

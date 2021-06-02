@@ -55,10 +55,6 @@ body{
   overflow-x: hidden;
   
 }
-
-.container{
-  width: 100vw;
-}
 // @media (max-width: 480px){
   .overlay {
     @include box-2(100%, 550px, 0, 0 );
@@ -67,7 +63,7 @@ body{
     z-index: 2;
   }
   .top-div{
-    @include box-2(100%, 550px, 0, -1px );
+    @include box-2(100vw, 550px, 0, -1px );
 
     background: url("assets/img/mb-background.jpg");
     object-fit: cover;
@@ -92,7 +88,7 @@ body{
   .mobile-nav{
     z-index: 3;
     visibility: visible;
-    @include box-4(#FFFFFF, 100%, 32px, 115px, 38px, Sora, 500, 16px);
+    @include box-4(#FFFFFF, 224px, 32px, 115px, 38px, Sora, 500, 16px);
 
     line-height: 338.5%;
   }
@@ -105,7 +101,7 @@ body{
   .mobile-nav2{
     z-index: 2;
     visibility: hidden;
-    @include box-4(#FFFFFF, 100%, 32px, 115px, 38px, Sora, 500, 16px );
+    @include box-4(#FFFFFF, 224px, 32px, 115px, 38px, Sora, 500, 16px );
 
   }
   .internal-link2{
@@ -116,27 +112,27 @@ body{
 
   .big-words-mobile{
     z-index: 2;
-    @include box-4(#FFFFFF, 100%, 43px, 30px, 131px, Sora, bold, 48px);
+    @include box-4(#FFFFFF, 100vw, 43px, 30px, 131px, Sora, bold, 48px);
 
     line-height: 105.3%;
   }
 
   .big-words-mobile2{
     z-index: 2;
-    @include box-4(#FFFFFF, 100%, 29px, 30px, 194px, Sora, bold, 28px );
+    @include box-4(#FFFFFF, 375px, 29px, 30px, 194px, Sora, bold, 28px );
 
     line-height: 105.3%;
   }
 
   .intro{
     z-index: 2;
-    @include box-4(#FFFFFF, 100%, 136px, 30px, 257px, Sora, normal, 16px);
+    @include box-4(#FFFFFF, 317px, 136px, 30px, 257px, Sora, normal, 16px);
 
     line-height: 20px;
   }
 
   .social{
-    @include box-1(#FFFFFF, 100%, 104px, 13px, 405px);
+    @include box-1(#FFFFFF, 349px, 104px, 13px, 405px);
     
     background: #FFFFFF;
     border-radius: 20px;
@@ -144,7 +140,7 @@ body{
 
   .social-1{
     z-index: 2;
-    @include box-4(#4F5461, 100vw, 34px, 31px, 425px, Sora, normal, 16px);
+    @include box-4(#4F5461, 254px, 34px, 31px, 425px, Sora, normal, 16px);
 
     line-height: 20px;
   }
@@ -174,7 +170,7 @@ body{
   }
 
   .projects{
-    @include box-1(#FFFFFF, 100vw, 217.24px, 30px, 644px );
+    @include box-1(#FFFFFF, 315px, 217.24px, 30px, 644px );
 
     z-index: 2;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
@@ -183,7 +179,7 @@ body{
     border-radius: 10px;
   }
   .projects-pic{
-    @include box-1(#FFFFFF, 100vw, 217.24px, 30px, 644px );
+    @include box-1(#FFFFFF, 315px, 217.24px, 30px, 644px );
 
     background: url("assets/img/Screenshot(15).png");
     object-fit: cover;
@@ -485,7 +481,7 @@ body{
   }
 
   .about-me2{
-    @include box-4(#737986, 100vw, 111px, 35px, 2917px, Sora, normal, 16px );
+    @include box-4(#737986, 310px, 111px, 35px, 2917px, Sora, normal, 16px );
 
     line-height: 20px;
   }
@@ -517,7 +513,7 @@ body{
 
   /* Rectangle 33 */
   .languages-background{
-    @include box-2(100vw, 254px, 35px, 3165px);
+    @include box-2(312px, 254px, 35px, 3165px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -537,7 +533,7 @@ body{
   }
 
   .frameworks-background{
-    @include box-2(100vw, 289px, 35px, 3437px);
+    @include box-2(312px, 289px, 35px, 3437px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -556,7 +552,7 @@ body{
   }
 
   .skills-background{
-    @include box-2(100vw, 326px, 35px, 3744px);
+    @include box-2(312px, 326px, 35px, 3744px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -581,13 +577,13 @@ body{
   }
 
   .collaboration-text2{
-    @include box-4(#737986, 100vw, 84px, 35px, 4193px, Poppins, normal, 16px );
+    @include box-4(#737986, 312px, 84px, 35px, 4193px, Poppins, normal, 16px );
 
     line-height: 24px;
   }
 
   .footer-background{
-    @include box-2(100vw, 750px, 0, 4414px);
+    @include box-2(375px, 750px, 0, 4414px);
 
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
   transform: matrix(1, 0, 0, -1, 0, 0);
@@ -682,13 +678,13 @@ body{
 
 @media (min-width: 480px){
   .overlay {
-    @include box-2(100vw, 686px, 301px, -1px);
+    @include box-2(1139px, 686px, 301px, -1px);
 
     border-radius: 0 0 0 35%;
   }
 
   .top-div{
-    @include box-2(100vw, 686px, 301px, -1px);
+    @include box-2(1139px, 686px, 301px, -1px);
 
     border-radius: 0 0 0 35%;
   }
@@ -1108,7 +1104,7 @@ body{
 
   //FOOTER
   .footer-background{
-    @include box-2(100vw, 556px, 301px, 2617px);
+    @include box-2(1139px, 556px, 301px, 2617px);
 
     border-radius: 0 0 0 40%;
   }

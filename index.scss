@@ -1108,7 +1108,7 @@ body{
 
   //FOOTER
   .footer-background{
-    @include box-2(1139px, 556px, 301px, 2617px);
+    @include box-2(100vw, 556px, 301px, 2617px);
 
     border-radius: 0 0 0 40%;
   }

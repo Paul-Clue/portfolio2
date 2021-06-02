@@ -889,7 +889,7 @@ body {
   .overlay {
     position: absolute;
     font-style: normal;
-    width: 1139px;
+    width: 100vw;
     height: 686px;
     left: 301px;
     top: -1px;
@@ -898,7 +898,7 @@ body {
   .top-div {
     position: absolute;
     font-style: normal;
-    width: 1139px;
+    width: 100vw;
     height: 686px;
     left: 301px;
     top: -1px;

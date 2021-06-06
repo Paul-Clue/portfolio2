@@ -1,5 +1,5 @@
 @mixin box-1($color, $width, $height, $left, $top ){
-  position: absolute;
+  
   font-style: normal;
   z-index: 2;
 
@@ -11,7 +11,7 @@
 }
 
 @mixin box-2($width, $height, $left, $top ){
-  position: absolute;
+  
   font-style: normal;
 
   width: $width;
@@ -21,7 +21,7 @@
 }
 
 @mixin box-3($width, $height, $left, $top, $font, $f-weight, $f-size){
-  position: absolute;
+  
   font-style: normal;
   font-family: $font;
   font-weight: $f-weight;
@@ -34,7 +34,7 @@
 }
 
 @mixin box-4($color, $width, $height, $left, $top, $font, $f-weight, $f-size){
-  position: absolute;
+  
   font-style: normal;
   font-family: $font;
   font-weight: $f-weight;
@@ -50,17 +50,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Sora:wght@500&display=swap');
 
 // For Mobile
-body{
+html, body{
   width: 100%;
   overflow-x: hidden;
   
 }
+
+.mobile-nav3, .internal-link3{
+  display: none;
+  color: #4456FB;
+  left: -264px;
+  top: 170px;
+}
+
+.mobile-nav33, .internal-link33{
+  display: none;
+  color: #4456FB;
+  left: -264px;
+  top: 170px;
+}
+
+.icon-11{
+  display: none;
+}
+
+#pc1{
+  display: none;
+}
+.site-nav2{
+  visibility: hidden;
+}
+
+
 // @media (max-width: 480px){
   .overlay {
-    @include box-2(100%, 550px, 0, 0 );
+    @include box-2(100vw, 550px, 0, 0 );
 
     background: linear-gradient(248.05deg,  rgba(68.2%, 35.7%, 83.9%, 0.7)  24.1%, rgba(25.1%, 32.2%, 94.1%, 0.7) 99.44%);
-    z-index: 2;
+    z-index: 0;
   }
   .top-div{
     @include box-2(100vw, 550px, 0, -1px );
@@ -73,7 +100,7 @@ body{
 
   .icon-1{
     @include box-4(#FFFFFF, 64px, 64px, 25px, 31p, Poppins, 800, 20px );
-    z-index: 2;
+    z-index: 10;
     background: #4456FB;
     border-radius: 50%;
 
@@ -88,7 +115,7 @@ body{
   .mobile-nav{
     z-index: 3;
     visibility: visible;
-    @include box-4(#FFFFFF, 224px, 32px, 115px, 38px, Sora, 500, 16px);
+    @include box-4(#FFFFFF, 100vw, 32px, 115px, 38px, Sora, 500, 16px);
 
     line-height: 338.5%;
   }
@@ -101,7 +128,7 @@ body{
   .mobile-nav2{
     z-index: 2;
     visibility: hidden;
-    @include box-4(#FFFFFF, 224px, 32px, 115px, 38px, Sora, 500, 16px );
+    @include box-4(#FFFFFF, 100vw, 32px, 115px, 38px, Sora, 500, 16px );
 
   }
   .internal-link2{
@@ -110,29 +137,70 @@ body{
   text-decoration: none;
   }
 
+
+
+  .icon-11{
+    @include box-4(#FFFFFF, 64px, 64px, 25px, 31p, Poppins, 800, 20px );
+    z-index: 10;
+    background: #4456FB;
+    border-radius: 50%;
+
+  }
+
+  #pc1{
+    z-index: 2;
+    margin-left: 25%;
+    z-index: 2;
+  }
+
+  .mobile-nav3{
+    z-index: 3;
+    visibility: visible;
+    @include box-4(#FFFFFF, 100vw, 32px, 115px, 38px, Sora, 500, 16px);
+
+    line-height: 338.5%;
+  }
+  .internal-link3{
+    visibility: visible;
+    color: white;
+    text-decoration: none;
+  }
+
+  .mobile-nav33{
+    z-index: 2;
+    visibility: hidden;
+    @include box-4(#FFFFFF, 100vw, 32px, 115px, 38px, Sora, 500, 16px );
+
+  }
+  .internal-link33{
+    visibility: hidden;
+  color: white;
+  text-decoration: none;
+  }
+
   .big-words-mobile{
     z-index: 2;
-    @include box-4(#FFFFFF, 100vw, 43px, 30px, 131px, Sora, bold, 48px);
+    @include box-4(#FFFFFF, 100vw, 43px, 30px, 131px, Sora, bold, 2.2em);
 
     line-height: 105.3%;
   }
 
   .big-words-mobile2{
     z-index: 2;
-    @include box-4(#FFFFFF, 375px, 29px, 30px, 194px, Sora, bold, 28px );
+    @include box-4(#FFFFFF, 100vw, 29px, 30px, 194px, Sora, bold, 1.2em );
 
     line-height: 105.3%;
   }
 
   .intro{
     z-index: 2;
-    @include box-4(#FFFFFF, 317px, 136px, 30px, 257px, Sora, normal, 16px);
+    @include box-4(#FFFFFF, 100vw, 136px, 30px, 257px, Sora, normal, .8em);
 
     line-height: 20px;
   }
 
   .social{
-    @include box-1(#FFFFFF, 349px, 104px, 13px, 405px);
+    @include box-1(#FFFFFF, 100vw, 104px, 13px, 405px);
     
     background: #FFFFFF;
     border-radius: 20px;
@@ -140,7 +208,8 @@ body{
 
   .social-1{
     z-index: 2;
-    @include box-4(#4F5461, 254px, 34px, 31px, 425px, Sora, normal, 16px);
+    @include box-4(darkgrey, 100vw, 34px, 31px, 425px, Sora, normal, 1.5rem);
+    
 
     line-height: 20px;
   }
@@ -170,7 +239,7 @@ body{
   }
 
   .projects{
-    @include box-1(#FFFFFF, 315px, 217.24px, 30px, 644px );
+    @include box-1(#FFFFFF, 100vw, 217.24px, 30px, 644px );
 
     z-index: 2;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
@@ -179,7 +248,7 @@ body{
     border-radius: 10px;
   }
   .projects-pic{
-    @include box-1(#FFFFFF, 315px, 217.24px, 30px, 644px );
+    @include box-1(#FFFFFF, 100vw, 217.24px, 30px, 644px );
 
     background: url("assets/img/Screenshot(15).png");
     object-fit: cover;
@@ -189,6 +258,7 @@ body{
     box-sizing: border-box;
     border-radius: 10px;
   }
+  
 
 .projects-title{
   display: none;
@@ -209,7 +279,7 @@ body{
     top: 1382px;
   }
   #fourth-div{
-    background: url("assets/img/promo-site.png");
+    // background: url("assets/img/promo-site.png");
     object-fit: cover;
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
@@ -225,7 +295,7 @@ body{
   }
 
   #sixth-div{
-    background: url("assets/img/Screenshot(17).png");
+    // background: url("assets/img/Screenshot(17).png");
     object-fit: cover;
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
@@ -283,8 +353,9 @@ body{
   }
   .big-button{
     z-index: 4;
-    @include box-2(315px, 59px, 30px, 924px );
+    @include box-2(50vw, 59px, 30px, 924px );
 
+    height: 3vh;
     background: #4456FB;
     border-radius: 60px;
   }
@@ -398,7 +469,7 @@ body{
 
   .big-button-text{
     z-index: 5;
-    @include box-4(#FFFFFF, 254.8px, 19px, 65px, 946px, Poppins, bold, 16px );
+    @include box-4(#FFFFFF, 100vw, 19px, 65px, 946px, Poppins, bold, 16px );
 
     line-height: 105.3%;
     text-align: center;
@@ -481,15 +552,18 @@ body{
   }
 
   .about-me2{
-    @include box-4(#737986, 310px, 111px, 35px, 2917px, Sora, normal, 16px );
+    @include box-4(#737986, 100vw, 111px, 35px, 2917px, Sora, normal, 16px );
 
     line-height: 20px;
+    margin-bottom: 0;
   }
 
   /* Rectangle 11 */
   .get-resume{
     @include box-2(193px, 59px, 35px, 3065px );
-
+    height: 3vh;
+    margin-bottom: 10vh;
+    margin-top: 1vh;
     background: #4456FB;
     border-radius: 60px;
   }
@@ -513,7 +587,7 @@ body{
 
   /* Rectangle 33 */
   .languages-background{
-    @include box-2(312px, 254px, 35px, 3165px);
+    @include box-2(100vw, 254px, 35px, 3165px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -527,13 +601,13 @@ body{
 
   /* JavaScript (ES5/ES6) Ruby HTML CSS */
   .languages-text2{
-    @include box-4(#737986, 247px, 151px, 67px, 3238px, Sora, normal, 16px );
+    @include box-4(#737986, 100vw, 151px, 67px, 3238px, Sora, normal, 16px );
 
     line-height: 242.5%;
   }
 
   .frameworks-background{
-    @include box-2(312px, 289px, 35px, 3437px);
+    @include box-2(100vwx, 289px, 35px, 3437px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -552,7 +626,7 @@ body{
   }
 
   .skills-background{
-    @include box-2(312px, 326px, 35px, 3744px);
+    @include box-2(100vw, 326px, 35px, 3744px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -570,6 +644,10 @@ body{
     line-height: 242.5%;
   }
 
+  .colab-section{
+    // margin-bottom: 5vh;
+  }
+
   .collaboration-text{
     @include box-4(#4F5461, 213px, 58px, 35px, 4119px, Sora, bold, 28px );
 
@@ -577,30 +655,33 @@ body{
   }
 
   .collaboration-text2{
-    @include box-4(#737986, 312px, 84px, 35px, 4193px, Poppins, normal, 16px );
+    @include box-4(#737986, 100vw, 84px, 35px, 4193px, Poppins, normal, 16px );
 
     line-height: 24px;
   }
 
-  .footer-background{
-    @include box-2(375px, 750px, 0, 4414px);
+  .footerBackground{
+    @include box-2(100vw, 750px, 0, 4414px);
 
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
-  transform: matrix(1, 0, 0, -1, 0, 0);
+  // transform: matrix(1, 0, 0, -1, 0, 0);
+  margin-top: 18vh;
+  padding-top: 3vh;
   }
 
   #fname1{
-    @include box-2(332px, 59px, 22px, 4434px);
+    @include box-2(100%, 59px, 22px, 4434px);
   
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.07);
     box-sizing: border-box;
     box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
     border-radius: 14px;
+    margin-bottom: 3vh;
   }
 
   #fname2{
-    @include box-2(332px, 59px, 22px, 4514px);
+    @include box-2(100%, 59px, 22px, 4514px);
 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -610,7 +691,7 @@ body{
   }
 
   #fname3{
-    @include box-2(332px, 185px, 22px, 4614px);
+    @include box-2(100%, 185px, 22px, 4614px);
 
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.07);
@@ -625,7 +706,7 @@ body{
   }
 
   #form-button{
-    @include box-2(332px, 59px, 22px, 4819px);
+    @include box-2(100%, 59px, 22px, 4819px);
 
     background: #FA4969;
     border-radius: 60px;
@@ -639,7 +720,7 @@ body{
   }
 
   .social2{
-    @include box-1(#FFFFFF, 349px, 104px, 13px, 4994px);
+    @include box-1(#FFFFFF, 100vw, 104px, 13px, 4994px);
 
     background: #FFFFFF;
     border-radius: 20px;
@@ -664,7 +745,7 @@ body{
   }
 
   .hline{
-    @include box-1(#9999FF, 334px, 0, 21px, 5094px);
+    @include box-1(#9999FF, 100vw, 0, 21px, 5094px);
     
     border: 2px solid #9999FF;
   }
@@ -676,38 +757,80 @@ body{
     text-align: center;
   }
 
+  .social-footer{
+    // position: relative;
+    margin-left: 60vw;
+  }
+
 @media (min-width: 480px){
+  .siteNav{
+    color: black;
+    width: 20vw;
+    display:inline-block;
+    margin-bottom: 90vh;
+  }
+  .site-nav2{
+    visibility: hidden !important;
+  }
+
   .overlay {
-    @include box-2(1139px, 686px, 301px, -1px);
+    @include box-2(80vw, 686px, 301px, -1px);
 
     border-radius: 0 0 0 35%;
+    float: right;
   }
 
   .top-div{
-    @include box-2(1139px, 686px, 301px, -1px);
+    @include box-2(80vw, 686px, 301px, -1px);
 
     border-radius: 0 0 0 35%;
+    float: right;
+  }
+
+  .mobile-nav3, .internal-link3{
+    display: block;
+    color: #4456FB;
+    left: -264px;
+    top: 170px;
+  }
+
+  .mobile-nav33, .internal-link33{
+    display: block;
+    color: #4456FB;
+    left: -264px;
+    top: 170px;
+  }
+
+  .icon-11{
+    
+    display:block;
+  }
+
+  #pc1{
+   
+    display: block;
   }
 
   .icon-1{
-    left: -250px;
-    top: 47px;
+    
+    display: none;
   }
 
   #pc{
-    left: -264px;
-    top: 75px;
+   
+    display: none;
   }
 
+
   .mobile-nav, .internal-link{
-    visibility: hidden;
+    display: none;
     color: #4456FB;
     left: -264px;
     top: 170px;
   }
 
   .mobile-nav2, .internal-link2{
-    visibility: visible;
+    display: none;
     color: #4456FB;
     left: -264px;
     top: 170px;
@@ -1103,10 +1226,17 @@ body{
   }
 
   //FOOTER
-  .footer-background{
-    @include box-2(1139px, 556px, 301px, 2617px);
-
+  .footerBackground{
+    // @include box-2(80vw, 50vw, 20vh, 2617px);
+    width: 80vw;
+    height: 50vw;
     border-radius: 0 0 0 40%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  form{
+    height: 20vh;
   }
 
   #fname1{
@@ -1134,12 +1264,7 @@ body{
       left: 517px;
       top: 2920px;
     }
-  
-    .email{
-      left: 1191px;
-      top: 2920px;
-    }
-  
+    
     .github2{
       left: 1210px;
       top: 2970px;

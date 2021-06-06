@@ -12,26 +12,43 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      
-        <div class="overlay"></div>
+    <div class="container-fluid">
+      <div class="siteNav">
+        <div class="icon-11">
+          <p id="pc1">PC</p>
+        </div>
 
-        <!-- Top -->
-        <section class="top-div">
-         
-          <div class="icon-1">
-            <p id="pc">PC</p>
+      <div class="mobile-nav3">
+       <p><a href="#portfolio" class="internal-link3">Portfolio</a></p><p><a href="#about" class="internal-link3">About</a></p>
+       <p><a href="#contact" class="internal-link3">Contact</a></p>
+      </div>
+
+      <div class="mobile-nav33">
+        <a href="#portfolio" class="internal-link33">Portfolio</a> <br><br><br><a href="#about" class="internal-link33">About</a> <br><br><br>
+        <a href="#contact" class="internal-link33">Contact</a>
+      </div>
+    </div>
+            <!-- Top -->
+         <section class="top-div">
+          
+        <div class="overlay">
+          <div class="sit-nav2">
+            <div class="icon-1 ">
+              <p id="pc">PC</p>
+            </div>
+
+          <div class="mobile-nav">
+            <a href="#portfolio" class="internal-link">Portfolio</a> &nbsp;<a href="#about" class="internal-link">About</a>&nbsp;
+            <a href="#contact" class="internal-link">Contact</a>
           </div>
 
-        <div class="mobile-nav">
-          <a href="#portfolio" class="internal-link">Portfolio</a> &nbsp;<a href="#about" class="internal-link">About</a>&nbsp;
-          <a href="#contact" class="internal-link">Contact</a>
+          <div class="mobile-nav2">
+            <a href="#portfolio" class="internal-link2">Portfolio</a> <br><br><br><a href="#about" class="internal-link2">About</a> <br><br><br>
+            <a href="#contact" class="internal-link2">Contact</a>
+          </div>
         </div>
 
-        <div class="mobile-nav2">
-          <a href="#portfolio" class="internal-link2">Portfolio</a> <br><br><br><a href="#about" class="internal-link2">About</a> <br><br><br>
-          <a href="#contact" class="internal-link2">Contact</a>
-        </div>
+
 
         <div class="big-words-mobile">My Portfolio</div>
 
@@ -39,194 +56,234 @@
 
         <div class="intro">
           I can help you build a product,
-          feature or website. Look through some of my work and experience!
+          feature, or website. Look through some of my work and experience!
           If you like what you see and have project you need coded,
           don’t hesitate to contact me.
         </div>
 
         <div class="social"></div>
 
-        <div class="social-1">My Works In Social Networks</div>
+        <div class="social-1" style="z-index: 5; ">My Works In Social Networks</div>
 
-        <div class="github">
+        <div >
+          <span class="github">
           <a href="https://github.com/Paul-Clue" target="_blank" rel="noopener noreferrer"><img src="assets/img/github2.png" width="27px" alt="" ></a>
-        </div>
-        <div class="twitt">
+          </span>
+        
+        <span class="twitt">
           <a href="https://twitter.com/PaulC84429933" target="_blank" rel="noopener noreferrer"><img src="assets/img/tweet.jpg" width="27px" alt="" ></a>
-        </div>
-        <div class="in">
+          </span>
+
+        <span class="in">
           <a href="https://www.linkedin.com/in/paul-clue/" target="_blank" rel="noopener noreferrer"> <img src="assets/img/linkedin.jpg" width="27px" alt="" ></a>
+        </span>
         </div>
       </section>
 
       <!-- Portfolio -->
-      <section>
+      <section class="portSec" style="float: right;">
         <p a id="portfolio" class="portfolio">Portfolio</p>
 
-        <div class="projects-pic"></div>
-        <div class="projects"></div>
-        <p class="projects-title">First Project</p>
-        <div class="left-button"></div><span class="left-text">HTML/CSS</span>
-        <div class="middle-button"></div><span class="middle-text">Ruby On Rails</span>
-        <!-- <div class="right-button"></div><span class="right-text">JavaScript</span>-->
-        <p class="big-button"><a  href="https://github.com/Paul-Clue/rails-lifestyle-magazine-capstone" target="_blank" rel="noopener noreferrer"></a></p><a href="https://github.com/Paul-Clue/rails-lifestyle-magazine-capstone" target="_blank" rel="noopener noreferrer"><span class="big-button-text">GitHub Repo <br>Short Articles About Electric Cars App</span></a>
+        <div class="projects-pic">
+          <span class="left-button"><span class="left-text">HTML/CSS</span></span>
+          <span class="middle-button"><span class="middle-text">Ruby On Rails</span></span>
+        </div>
+        <div class="projects" >
+          <p style="color: #4F5461; font-family: Sora;">This is a website I built from scratch
+             using Ruby on Rails. Users can write articles
+             and attach images for that article. Users can
+             also view articles written by other users and 
+             place a vote for that article if the user likes it.
+             The Article with the most votes will be premiered as the main article.
+          </p>
+          <p >
+            <span class="big-button" ><a  href="https://github.com/Paul-Clue/rails-lifestyle-magazine-capstone" target="_blank" rel="noopener noreferrer"></a><a href="https://github.com/Paul-Clue/rails-lifestyle-magazine-capstone" target="_blank" rel="noopener noreferrer"><span class="big-button-text">GitHub Repo </span></a></span>
+            <span>&nbsp;&nbsp;&nbsp;</span>
+            <span class="big-button" id="big-button2" ><a href="https://salty-sea-17849.herokuapp.com/users/new" target="_blank" rel="noopener noreferrer"></a><a href="https://salty-sea-17849.herokuapp.com/users/new" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-2">Demo</span></a></span>
+          </p>
+        </div> 
 
-
-        <div class="projects" id="second-div"></div>
-        <p class="projects-title" id="second">Second Project</p>
-        <div class="left-button" id="left-button2"></div><span class="left-text l-2L" >HTML/CSS</span>
-        <div class="middle-button" id="middle-button2"></div><span class="middle-text l-2M">Ruby On Rails</span>
-        <!-- <div class="right-button" id="right-button2"></div><span class="right-text l-2R">JavaScript</span> -->
-        <!-- <div class="big-button" id="big-button2"></div><span class="big-button-text big-2">See The Project</span> -->
-        <a class="big-button" id="big-button2" href="https://salty-sea-17849.herokuapp.com/users/new" target="_blank" rel="noopener noreferrer"></a><a href="https://salty-sea-17849.herokuapp.com/users/new" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-2">Demo<br>Short Articles About Electric Cars App</span></a>
-
-        <div class="projects" id="third-div"></div>
+        <div class="projects" id="third-div">
         <p class="projects-title" id="third">Third Project</p>
-        <div class="left-button" id="left-button3"></div><span class="left-text l-3L">HTML/CSS</span>
-        <div class="middle-button" id="middle-button3"></div><span class="middle-text l-3M">Sass</span>
+        <span class="left-button" id="left-button3"><span class="left-text l-3L">HTML/CSS</span></span>
+        <span class="middle-button" id="middle-button3"><span class="middle-text l-3M">Sass</span></span>
         <!-- <div class="right-button" id="right-button3"></div><span class="right-text l-3R">JavaScript</span> -->
-        <a class="big-button" id="big-button3" href="https://github.com/Paul-Clue/capstone2/tree/capstone" target="_blank" rel="noopener noreferrer"></a><a href="https://github.com/Paul-Clue/capstone2/tree/capstone" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-3">GitHub Repo<br>Website For Promoting Events</span></a>
- 
+        </div>
 
-        <div class="projects" id="fourth-div"></div>
+        <div class="projects" id="fourth-div">
         <p class="projects-title" id="fourth">Fourth Project</p>
-        <div class="left-button" id="left-button4"></div><span class="left-text l-4L">HTML/CSS</span>
-        <div class="middle-button" id="middle-button4"></div><span class="middle-text l-4M">Sass</span>
+        <!-- <div class="left-button" id="left-button4"></div><span class="left-text l-4L">HTML/CSS</span>
+        <div class="middle-button" id="middle-button4"></div><span class="middle-text l-4M">Sass</span> -->
         <!-- <div class="right-button" id="right-button4"></div><span class="right-text l-4R">JavaScript</span> -->
-        <a class="big-button" id="big-button4" href="https://elastic-kirch-4a0c76.netlify.app/" target="_blank" rel="noopener noreferrer"></a><a href="https://elastic-kirch-4a0c76.netlify.app/" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-4">Demo<br>Website For Promoting Events</span></a>
+        <p style="color: #4F5461; font-family: Sora;">This is a website I built from scratch with just HTML and CSS.</p>
+        <p style="margin-top: 5em;">
+        <span class="big-button" id="big-button3" ><a href="https://github.com/Paul-Clue/capstone2/tree/capstone" target="_blank" rel="noopener noreferrer"></a><a href="https://github.com/Paul-Clue/capstone2/tree/capstone" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-3">GitHub Repo</span></a></span>
+        <span class="big-button" id="big-button4" ><a href="https://elastic-kirch-4a0c76.netlify.app/" target="_blank" rel="noopener noreferrer"></a><a href="https://elastic-kirch-4a0c76.netlify.app/" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-4">Demo</span></a></span>
+        </p>
+        </div>
 
-        <div class="projects" id="fifth-div"></div>
+        <div class="projects" id="fifth-div">
         <p class="projects-title" id="fifth">Fifth Project</p>
-        <div class="left-button" id="left-button5"></div><span class="left-text l-5L">JavaScript</span>
-        <div class="middle-button" id="middle-button5"></div><span class="middle-text l-5M">Webpack</span>
-         <div class="right-button" id="right-button3"></div><span class="right-text l-3R">JavaScript</span> 
-        <a class="big-button" id="big-button5" href="https://github.com/Paul-Clue/todo-list" target="_blank" rel="noopener noreferrer"></a><a href="https://github.com/Paul-Clue/todo-list" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-5">GitHub Repo<br>Website For Promoting Events</span></a>
+        <span class="left-button" id="left-button5"><span class="left-text l-5L">JavaScript</span></span>
+        <span class="middle-button" id="middle-button5"><span class="middle-text l-5M">Webpack</span></span>
+         <span class="right-button" id="right-button3"><span class="right-text l-3R">JavaScript</span></span>
+        </div>
  
 
-        <div class="projects" id="sixth-div"></div>
+        <div class="projects" id="sixth-div">
         <p class="projects-title" id="sixth">Fourth Project</p>
-        <div class="left-button" id="left-button6"></div><span class="left-text l-6L">JavaScript</span>
+        <!-- <div class="left-button" id="left-button6"></div><span class="left-text l-6L">JavaScript</span>
         <div class="middle-button" id="middle-button6"></div><span class="middle-text l-6M">Webpack</span>
-        <div class="right-button" id="right-button4"></div><span class="right-text l-4R">JavaScript</span>
-        <a class="big-button" id="big-button6" href="https://paul-clue.github.io/todo-list/" target="_blank" rel="noopener noreferrer"></a><a href="https://paul-clue.github.io/todo-list/" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-6">Demo<br>Website For Promoting Events</span></a>
+        <div class="right-button" id="right-button4"></div><span class="right-text l-4R">JavaScript</span> -->
+        <p style="color: #4F5461; font-family: Sora;">This is an app for making a to-do list.
+          Users can create project topics and add
+          to-dos that need to be done. Create to-dos
+          with titles, due dates, and a brief description
+          of the task at hand. Users can view all to-dos 
+          at once or by project.The app also allows the user
+          to pick a priority for the to-dos.
+        </p>
+        <p style="margin-top: 1em;">
+        <span class="big-button" id="big-button5" ><a href="https://github.com/Paul-Clue/todo-list" target="_blank" rel="noopener noreferrer"></a><a href="https://github.com/Paul-Clue/todo-list" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-5">GitHub Repo</span></a></span>
+        <span class="big-button" id="big-button6"><a href="https://paul-clue.github.io/todo-list/" target="_blank" rel="noopener noreferrer"></a><a href="https://paul-clue.github.io/todo-list/" target="_blank" rel="noopener noreferrer"><span class="big-button-text big-6">Demo</span></a></span>
+        </p>
+        </div>
+
       </section>
 
       <!-- About Me -->
-      <section>
+      <section style="float: right;">
         <div >
           <p a id="about" class="about-me" >About Me</p>
           <p class="about-me2">
             In three sentences describe who you are as a professional.
             Look through some of my work and experience! If you like what 
-            you see and have project you need coded, don’t hesistate to contact me.
+            you see and have project you need coded, don’t hesitate to contact me.
           </p>
+
+            <p class="get-resume get-resume-text2"><a href="https://docs.google.com/document/d/1OGq9n3_TINAhA8h4KdWdpNDnl6A9XYQu2pSBFOwA_cw/edit?usp=sharing" target="_blank" rel="noopener noreferrer"></a>
+              <span class="get-resume-text">
+                <a class="get-resume-text2" href="https://docs.google.com/document/d/1OGq9n3_TINAhA8h4KdWdpNDnl6A9XYQu2pSBFOwA_cw/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> Get My Resume </a>
+              </span>
+            </p>
+            
         </div>
         
-          <a class="get-resume get-resume-text2" href="https://docs.google.com/document/d/1OGq9n3_TINAhA8h4KdWdpNDnl6A9XYQu2pSBFOwA_cw/edit?usp=sharing" target="_blank" rel="noopener noreferrer"></a>
-        
-        <p class="get-resume-text">
-         <a class="get-resume-text2" href="https://docs.google.com/document/d/1OGq9n3_TINAhA8h4KdWdpNDnl6A9XYQu2pSBFOwA_cw/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> Get My Resume </a>
-        </p>
-      </section>
+      </section >
 
       <!-- Languages -->
-      <section>
-        <div class="languages-background"></div>
-        <div>
-          <p  class="languages-text">
-            Languages
-          </p>
+      <section style="float: right;">
+        <div class="languages-background">
+          <div>
+            <p  class="languages-text">
+              Languages
+            </p>
+  
+            <p class="languages-text2">
+              JavaScript (ES5/ES6) <br>
+              Ruby <br>
+              HTML <br>
+              CSS 
+            </p>
+          </div>
 
-          <p class="languages-text2">
-            JavaScript (ES5/ES6) <br>
-            Ruby <br>
-            HTML <br>
-            CSS 
-          </p>
         </div>
+        
 
-        <div class="frameworks-background"></div>
-        <div>
-          <p class="frameworks-text">
-            Frameworks
-          </p>
-
-          <p class="frameworks-text2">
-            Bootstrap <br>
-            Ruby on Rails <br>
-            RSpec <br>
-            Capybara <br> 
-            Selenium
-          </p>
+        <div class="frameworks-background">
+          <div>
+            <p class="frameworks-text">
+              Frameworks
+            </p>
+  
+            <p class="frameworks-text2">
+              Bootstrap <br>
+              Ruby on Rails <br>
+              RSpec <br>
+              Capybara <br> 
+              Selenium
+            </p>
+          </div>
         </div>
+        
 
-        <div class="skills-background"></div>
-
-        <p class="skills-text">
-          Skills
-        </p>
-
-        <p class="skills-text2">
-          Bootstrap <br>
-          Bulma <br> 
-          Codekit <br>
-          Codepen <br>
-          Github <br>
-          Gitlab
-        </p>
+        <div class="skills-background">
+          <div>
+            <p class="skills-text">
+              Skills
+            </p>
+  
+            <p class="skills-text2">
+              Bootstrap <br>
+              Bulma <br> 
+              Codekit <br>
+              Codepen <br>
+              Github <br>
+              Gitlab
+            </p>
+          </div>
+        </div>
+        
       </section>
 
       <!-- Collaboration -->
-      <section>
+      <section class="colab-section" style="float: right;">
         <p a id="contact" class="collaboration-text">
           <span>Interested in collaborating?</span>
         </p>
         <p class="collaboration-text2">
-          If you have an application you are interested in developing,
-          a feature that you need built or a project that need coding,
-          I’d love to help you with it.
+          Are you interested in developing an application? Do you want to 
+          add a new feature to your current app? Or are you just looking for 
+          a serious junior developer who is passionate about his work? If your 
+          answer is yes to any of these, then please contact me. I would love
+          speak with you.
         </p>
       </section>
 
       <!-- Footer -->
-      <section>
-        <div class="footer-background">
-          
-        </div>
-        <div class="form">
-          <form action="mailto:paulclue20@gmail.com" method="post" enctype="multipart/form-data">
-            
-            
-            <input type="text" id="fname1" name="full-name" placeholder="Full Name"><br>
-            
-            
-            <input type="text" id="fname2" name="email" placeholder="Email"><br><br>
-            
-            
-            <input type="text" id="fname3" name="message" placeholder="Message"><br><br>
-            <input type="submit" id="form-button" value="Submit">
-          </form>
+      <section style="float: right;">
+        <!-- <div class="footer-background"></div> -->
+        <div class="footerBackground">
 
-          <p class="email">
-            pclue@gmail.com
-          </p>
-
-          <!-- <div class="social2"></div> -->
-        </div>
-      
-          <div class="github2">
-            <a href="https://github.com/Paul-Clue" target="_blank" rel="noopener noreferrer"><img src="assets/img/github2.png" width="27px" alt="" ></a>
-          </div>
-          <div class="twitt2">
-            <a href="https://twitter.com/PaulC84429933" target="_blank" rel="noopener noreferrer"><img src="assets/img/tweet.jpg" width="27px" alt="" ></a>
-          </div>
-          <div class="in2">
-            <a href="https://www.linkedin.com/in/paul-clue/" target="_blank" rel="noopener noreferrer"> <img src="assets/img/linkedin.jpg" width="27px" alt="" ></a>
-          </div>
+          <div class="form1">
+            <form action="mailto:paulclue20@gmail.com" method="post" enctype="multipart/form-data">
+              
+              
+              <input type="text" id="fname1" name="full-name" placeholder="Full Name"><br>
+              
+              
+              <input type="text" id="fname2" name="email" placeholder="Email"><br><br>
+              
+              
+              <input type="text" id="fname3" name="message" placeholder="Message"><br><br>
+              <input type="submit" id="form-button" value="Submit">
+            </form>
   
-        <hr class="hline">
-        <div class="bottom"> &#169; 2021 Paul Clue </div>
+            <p class="email">
+              paulclue20@gmail.com
+            </p>
+  
+            <!-- <div class="social2"></div> -->
+          </div>
+        
+            <div class="social-footer">
+              <span class="github2">
+              <a href="https://github.com/Paul-Clue" target="_blank" rel="noopener noreferrer"><img src="assets/img/github2.png" width="27px" alt="" ></a>
+              </span>
+              <span class="twitt2">
+              <a href="https://twitter.com/PaulC84429933" target="_blank" rel="noopener noreferrer"><img src="assets/img/tweet.jpg" width="27px" alt="" ></a>
+              </span>
+              <span>
+              <a href="https://www.linkedin.com/in/paul-clue/" target="_blank" rel="noopener noreferrer"> <img src="assets/img/linkedin.jpg" width="27px" alt="" ></a>
+              </span>
+            </div>
+    
+          <hr class="hline">
+          <div class="bottom"> &#169; 2021 Paul Clue </div>
+        
+        </div>
       </section>
+        
 
     </div>
 

@@ -1,21 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Sora:wght@500&display=swap");
-body {
+html, body {
   width: 100%;
   overflow-x: hidden; }
 
+.mobile-nav3, .internal-link3 {
+  display: none;
+  color: #4456FB;
+  left: -264px;
+  top: 170px; }
+
+.mobile-nav33, .internal-link33 {
+  display: none;
+  color: #4456FB;
+  left: -264px;
+  top: 170px; }
+
+.icon-11 {
+  display: none; }
+
+#pc1 {
+  display: none; }
+
+.site-nav2 {
+  visibility: hidden; }
+
 .overlay {
-  position: absolute;
   font-style: normal;
-  width: 100%;
+  width: 100vw;
   height: 550px;
   left: 0;
   top: 0;
   background: linear-gradient(248.05deg, rgba(174, 91, 214, 0.7) 24.1%, rgba(64, 82, 240, 0.7) 99.44%);
-  z-index: 2; }
+  z-index: 0; }
 
 .top-div {
-  position: absolute;
   font-style: normal;
   width: 100vw;
   height: 550px;
@@ -26,7 +45,6 @@ body {
   background-blend-mode: screen; }
 
 .icon-1 {
-  position: absolute;
   font-style: normal;
   font-family: Poppins;
   font-weight: 800;
@@ -36,7 +54,7 @@ body {
   height: 64px;
   left: 25px;
   top: 31p;
-  z-index: 2;
+  z-index: 10;
   background: #4456FB;
   border-radius: 50%; }
 
@@ -48,13 +66,12 @@ body {
 .mobile-nav {
   z-index: 3;
   visibility: visible;
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: 500;
   font-size: 16px;
   color: #FFFFFF;
-  width: 224px;
+  width: 100vw;
   height: 32px;
   left: 115px;
   top: 38px;
@@ -68,13 +85,12 @@ body {
 .mobile-nav2 {
   z-index: 2;
   visibility: hidden;
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: 500;
   font-size: 16px;
   color: #FFFFFF;
-  width: 224px;
+  width: 100vw;
   height: 32px;
   left: 115px;
   top: 38px; }
@@ -84,13 +100,68 @@ body {
   color: white;
   text-decoration: none; }
 
+.icon-11 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 20px;
+  color: #FFFFFF;
+  width: 64px;
+  height: 64px;
+  left: 25px;
+  top: 31p;
+  z-index: 10;
+  background: #4456FB;
+  border-radius: 50%; }
+
+#pc1 {
+  z-index: 2;
+  margin-left: 25%;
+  z-index: 2; }
+
+.mobile-nav3 {
+  z-index: 3;
+  visibility: visible;
+  font-style: normal;
+  font-family: Sora;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 100vw;
+  height: 32px;
+  left: 115px;
+  top: 38px;
+  line-height: 338.5%; }
+
+.internal-link3 {
+  visibility: visible;
+  color: white;
+  text-decoration: none; }
+
+.mobile-nav33 {
+  z-index: 2;
+  visibility: hidden;
+  font-style: normal;
+  font-family: Sora;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 100vw;
+  height: 32px;
+  left: 115px;
+  top: 38px; }
+
+.internal-link33 {
+  visibility: hidden;
+  color: white;
+  text-decoration: none; }
+
 .big-words-mobile {
   z-index: 2;
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 2.2em;
   color: #FFFFFF;
   width: 100vw;
   height: 43px;
@@ -100,13 +171,12 @@ body {
 
 .big-words-mobile2 {
   z-index: 2;
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 1.2em;
   color: #FFFFFF;
-  width: 375px;
+  width: 100vw;
   height: 29px;
   left: 30px;
   top: 194px;
@@ -114,24 +184,22 @@ body {
 
 .intro {
   z-index: 2;
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 0.8em;
   color: #FFFFFF;
-  width: 317px;
+  width: 100vw;
   height: 136px;
   left: 30px;
   top: 257px;
   line-height: 20px; }
 
 .social {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
-  width: 349px;
+  width: 100vw;
   height: 104px;
   left: 13px;
   top: 405px;
@@ -140,20 +208,18 @@ body {
 
 .social-1 {
   z-index: 2;
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
-  font-size: 16px;
-  color: #4F5461;
-  width: 254px;
+  font-size: 1.5rem;
+  color: darkgrey;
+  width: 100vw;
   height: 34px;
   left: 31px;
   top: 425px;
   line-height: 20px; }
 
 .github {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
@@ -164,7 +230,6 @@ body {
   background: #FFFFFF; }
 
 .twitt {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
@@ -175,7 +240,6 @@ body {
   background: #FFFFFF; }
 
 .in {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
@@ -186,7 +250,6 @@ body {
   background: #FFFFFF; }
 
 .portfolio {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -199,11 +262,10 @@ body {
   line-height: 105.3%; }
 
 .projects {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
-  width: 315px;
+  width: 100vw;
   height: 217.24px;
   left: 30px;
   top: 644px;
@@ -214,11 +276,10 @@ body {
   border-radius: 10px; }
 
 .projects-pic {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
-  width: 315px;
+  width: 100vw;
   height: 217.24px;
   left: 30px;
   top: 644px;
@@ -245,7 +306,6 @@ body {
   top: 1382px; }
 
 #fourth-div {
-  background: url("assets/img/promo-site.png");
   object-fit: cover;
   background-blend-mode: screen;
   top: 1754px; }
@@ -257,14 +317,12 @@ body {
   top: 2126px; }
 
 #sixth-div {
-  background: url("assets/img/Screenshot(17).png");
   object-fit: cover;
   background-blend-mode: screen;
   top: 2498px; }
 
 .projects-title {
   z-index: 4;
-  position: absolute;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
@@ -292,7 +350,6 @@ body {
   top: 2526px; }
 
 .left-button {
-  position: absolute;
   font-style: normal;
   width: 91px;
   height: 30px;
@@ -304,7 +361,6 @@ body {
 
 .middle-button {
   z-index: 4;
-  position: absolute;
   font-style: normal;
   width: 111px;
   height: 30px;
@@ -315,7 +371,6 @@ body {
 
 .right-button {
   z-index: 4;
-  position: absolute;
   font-style: normal;
   width: 91px;
   height: 30px;
@@ -326,12 +381,12 @@ body {
 
 .big-button {
   z-index: 4;
-  position: absolute;
   font-style: normal;
-  width: 315px;
+  width: 50vw;
   height: 59px;
   left: 30px;
   top: 924px;
+  height: 3vh;
   background: #4456FB;
   border-radius: 60px; }
 
@@ -417,7 +472,6 @@ body {
 
 .left-text {
   z-index: 5;
-  position: absolute;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500;
@@ -432,7 +486,6 @@ body {
 
 .middle-text {
   z-index: 5;
-  position: absolute;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500;
@@ -447,7 +500,6 @@ body {
 
 .right-text {
   z-index: 5;
-  position: absolute;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500;
@@ -462,13 +514,12 @@ body {
 
 .big-button-text {
   z-index: 5;
-  position: absolute;
   font-style: normal;
   font-family: Poppins;
   font-weight: bold;
   font-size: 16px;
   color: #FFFFFF;
-  width: 254.8px;
+  width: 100vw;
   height: 19px;
   left: 65px;
   top: 946px;
@@ -537,7 +588,6 @@ body {
 
 /* About me */
 .about-me {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -551,31 +601,32 @@ body {
   line-height: 105.3%; }
 
 .about-me2 {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
   font-size: 16px;
   color: #737986;
-  width: 310px;
+  width: 100vw;
   height: 111px;
   left: 35px;
   top: 2917px;
-  line-height: 20px; }
+  line-height: 20px;
+  margin-bottom: 0; }
 
 /* Rectangle 11 */
 .get-resume {
-  position: absolute;
   font-style: normal;
   width: 193px;
   height: 59px;
   left: 35px;
   top: 3065px;
+  height: 3vh;
+  margin-bottom: 10vh;
+  margin-top: 1vh;
   background: #4456FB;
   border-radius: 60px; }
 
 .get-resume-text {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -601,9 +652,8 @@ body {
 
 /* Rectangle 33 */
 .languages-background {
-  position: absolute;
   font-style: normal;
-  width: 312px;
+  width: 100vw;
   height: 254px;
   left: 35px;
   top: 3165px;
@@ -611,7 +661,6 @@ body {
   border-radius: 10px; }
 
 .languages-text {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -625,22 +674,20 @@ body {
 
 /* JavaScript (ES5/ES6) Ruby HTML CSS */
 .languages-text2 {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
   font-size: 16px;
   color: #737986;
-  width: 247px;
+  width: 100vw;
   height: 151px;
   left: 67px;
   top: 3238px;
   line-height: 242.5%; }
 
 .frameworks-background {
-  position: absolute;
   font-style: normal;
-  width: 312px;
+  width: 100vwx;
   height: 289px;
   left: 35px;
   top: 3437px;
@@ -648,7 +695,6 @@ body {
   border-radius: 10px; }
 
 .frameworks-text {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -661,7 +707,6 @@ body {
   line-height: 105.3%; }
 
 .frameworks-text2 {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
@@ -674,9 +719,8 @@ body {
   line-height: 242.5%; }
 
 .skills-background {
-  position: absolute;
   font-style: normal;
-  width: 312px;
+  width: 100vw;
   height: 326px;
   left: 35px;
   top: 3744px;
@@ -684,7 +728,6 @@ body {
   border-radius: 10px; }
 
 .skills-text {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -697,7 +740,6 @@ body {
   line-height: 105.3%; }
 
 .skills-text2 {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
@@ -710,7 +752,6 @@ body {
   line-height: 242.5%; }
 
 .collaboration-text {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -723,32 +764,30 @@ body {
   line-height: 105.3%; }
 
 .collaboration-text2 {
-  position: absolute;
   font-style: normal;
   font-family: Poppins;
   font-weight: normal;
   font-size: 16px;
   color: #737986;
-  width: 312px;
+  width: 100vw;
   height: 84px;
   left: 35px;
   top: 4193px;
   line-height: 24px; }
 
-.footer-background {
-  position: absolute;
+.footerBackground {
   font-style: normal;
-  width: 375px;
+  width: 100vw;
   height: 750px;
   left: 0;
   top: 4414px;
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
-  transform: matrix(1, 0, 0, -1, 0, 0); }
+  margin-top: 18vh;
+  padding-top: 3vh; }
 
 #fname1 {
-  position: absolute;
   font-style: normal;
-  width: 332px;
+  width: 100%;
   height: 59px;
   left: 22px;
   top: 4434px;
@@ -756,12 +795,12 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.07);
   box-sizing: border-box;
   box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
-  border-radius: 14px; }
+  border-radius: 14px;
+  margin-bottom: 3vh; }
 
 #fname2 {
-  position: absolute;
   font-style: normal;
-  width: 332px;
+  width: 100%;
   height: 59px;
   left: 22px;
   top: 4514px;
@@ -772,9 +811,8 @@ body {
   border-radius: 14px; }
 
 #fname3 {
-  position: absolute;
   font-style: normal;
-  width: 332px;
+  width: 100%;
   height: 185px;
   left: 22px;
   top: 4614px;
@@ -789,9 +827,8 @@ body {
   top: 3660px; }
 
 #form-button {
-  position: absolute;
   font-style: normal;
-  width: 332px;
+  width: 100%;
   height: 59px;
   left: 22px;
   top: 4819px;
@@ -799,7 +836,6 @@ body {
   border-radius: 60px; }
 
 .email {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
@@ -813,11 +849,10 @@ body {
   text-align: center; }
 
 .social2 {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
-  width: 349px;
+  width: 100vw;
   height: 104px;
   left: 13px;
   top: 4994px;
@@ -825,7 +860,6 @@ body {
   border-radius: 20px; }
 
 .github2 {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
@@ -836,7 +870,6 @@ body {
   background: #FFFFFF; }
 
 .in2 {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
@@ -847,7 +880,6 @@ body {
   background: #FFFFFF; }
 
 .twitt2 {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #FFFFFF;
@@ -858,18 +890,16 @@ body {
   background: #FFFFFF; }
 
 .hline {
-  position: absolute;
   font-style: normal;
   z-index: 2;
   color: #9999FF;
-  width: 334px;
+  width: 100vw;
   height: 0;
   left: 21px;
   top: 5094px;
   border: 2px solid #9999FF; }
 
 .bottom {
-  position: absolute;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
@@ -882,41 +912,69 @@ body {
   line-height: 20px;
   text-align: center; }
 
+.social-footer {
+  margin-left: 60vw; }
+
 @media (min-width: 480px) {
+  .siteNav {
+    color: black;
+    width: 20vw;
+    display: inline-block;
+    margin-bottom: 90vh; }
+
+  .site-nav2 {
+    visibility: hidden !important; }
+
   .overlay {
-    position: absolute;
     font-style: normal;
-    width: 1139px;
+    width: 80vw;
     height: 686px;
     left: 301px;
     top: -1px;
-    border-radius: 0 0 0 35%; }
+    border-radius: 0 0 0 35%;
+    float: right; }
 
   .top-div {
-    position: absolute;
     font-style: normal;
-    width: 1139px;
+    width: 80vw;
     height: 686px;
     left: 301px;
     top: -1px;
-    border-radius: 0 0 0 35%; }
+    border-radius: 0 0 0 35%;
+    float: right; }
+
+  .mobile-nav3, .internal-link3 {
+    display: block;
+    color: #4456FB;
+    left: -264px;
+    top: 170px; }
+
+  .mobile-nav33, .internal-link33 {
+    display: block;
+    color: #4456FB;
+    left: -264px;
+    top: 170px; }
+
+  .icon-11 {
+    display: block; }
+
+  #pc1 {
+    display: block; }
 
   .icon-1 {
-    left: -250px;
-    top: 47px; }
+    display: none; }
 
   #pc {
-    left: -264px;
-    top: 75px; }
+    display: none; }
 
   .mobile-nav, .internal-link {
-    visibility: hidden;
+    display: none;
     color: #4456FB;
     left: -264px;
     top: 170px; }
 
   .mobile-nav2, .internal-link2 {
-    visibility: visible;
+    display: none;
     color: #4456FB;
     left: -264px;
     top: 170px; }
@@ -932,7 +990,6 @@ body {
     left: 300px; }
 
   .social {
-    position: absolute;
     font-style: normal;
     width: 800px;
     height: 51px;
@@ -956,7 +1013,6 @@ body {
     top: 365px; }
 
   .portfolio {
-    position: absolute;
     font-style: normal;
     width: 531px;
     height: 29px;
@@ -964,7 +1020,6 @@ body {
     top: 710px; }
 
   .projects {
-    position: absolute;
     font-style: normal;
     width: 406px;
     height: 280px;
@@ -973,7 +1028,6 @@ body {
     z-index: 2; }
 
   .projects-pic {
-    position: absolute;
     font-style: normal;
     width: 406px;
     height: 280px;
@@ -981,7 +1035,6 @@ body {
     top: 788px; }
 
   #second-div {
-    position: absolute;
     font-style: normal;
     width: 406px;
     height: 280px;
@@ -989,7 +1042,6 @@ body {
     top: 788px; }
 
   #third-div {
-    position: absolute;
     font-style: normal;
     width: 406px;
     height: 280px;
@@ -997,7 +1049,6 @@ body {
     top: 1085px; }
 
   #fourth-div {
-    position: absolute;
     font-style: normal;
     width: 406px;
     height: 280px;
@@ -1005,7 +1056,6 @@ body {
     top: 1085px; }
 
   #fifth-div {
-    position: absolute;
     font-style: normal;
     width: 406px;
     height: 280px;
@@ -1013,7 +1063,6 @@ body {
     top: 1382px; }
 
   #sixth-div {
-    position: absolute;
     font-style: normal;
     width: 406px;
     height: 280px;
@@ -1041,7 +1090,6 @@ body {
     top: 2526px; }
 
   .big-button {
-    position: absolute;
     font-style: normal;
     width: 315px;
     height: 59px;
@@ -1071,7 +1119,6 @@ body {
     top: 1591px; }
 
   .left-button {
-    position: absolute;
     font-style: normal;
     width: 91px;
     height: 30px;
@@ -1081,7 +1128,6 @@ body {
     border-radius: 40px; }
 
   .middle-button {
-    position: absolute;
     font-style: normal;
     width: 111px;
     height: 30px;
@@ -1091,7 +1137,6 @@ body {
     border-radius: 40px; }
 
   .right-button {
-    position: absolute;
     font-style: normal;
     width: 91px;
     height: 30px;
@@ -1155,7 +1200,6 @@ body {
     top: 1420px; }
 
   .left-text {
-    position: absolute;
     font-style: normal;
     font-family: Poppins;
     font-weight: 500;
@@ -1169,7 +1213,6 @@ body {
     text-align: center; }
 
   .middle-text {
-    position: absolute;
     font-style: normal;
     font-family: Poppins;
     font-weight: 500;
@@ -1183,7 +1226,6 @@ body {
     text-align: center; }
 
   .right-text {
-    position: absolute;
     font-style: normal;
     font-family: Poppins;
     font-weight: 500;
@@ -1257,7 +1299,6 @@ body {
     top: 1425px; }
 
   .big-button-text {
-    position: absolute;
     font-style: normal;
     font-family: Poppins;
     font-weight: bold;
@@ -1352,14 +1393,15 @@ body {
     left: 517px;
     top: 2477px; }
 
-  .footer-background {
-    position: absolute;
-    font-style: normal;
-    width: 1139px;
-    height: 556px;
-    left: 301px;
-    top: 2617px;
-    border-radius: 0 0 0 40%; }
+  .footerBackground {
+    width: 80vw;
+    height: 50vw;
+    border-radius: 0 0 0 40%;
+    margin-right: 0;
+    margin-top: 0; }
+
+  form {
+    height: 20vh; }
 
   #fname1 {
     left: 517px;
@@ -1382,10 +1424,6 @@ body {
     left: 517px;
     top: 2920px; }
 
-  .email {
-    left: 1191px;
-    top: 2920px; }
-
   .github2 {
     left: 1210px;
     top: 2970px; }
@@ -1395,7 +1433,6 @@ body {
     top: 2970px; }
 
   .twitt2 {
-    position: absolute;
     font-style: normal;
     width: 30px;
     height: 30px;

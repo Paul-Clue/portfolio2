@@ -764,6 +764,7 @@ html, body{
 
 @media (min-width: 480px){
   .siteNav{
+    
     color: black;
     width: 20vw;
     display:inline-block;
@@ -773,21 +774,23 @@ html, body{
     visibility: hidden !important;
   }
 
+
   .overlay {
-    @include box-2(80vw, 686px, 301px, -1px);
+    @include box-2(70vw, 686px, 301px, -1px);
 
     border-radius: 0 0 0 35%;
     float: right;
   }
 
   .top-div{
-    @include box-2(80vw, 686px, 301px, -1px);
+    @include box-2(70vw, 686px, 301px, -1px);
 
     border-radius: 0 0 0 35%;
     float: right;
   }
 
   .mobile-nav3, .internal-link3{
+    
     display: block;
     color: #4456FB;
     left: -264px;
@@ -795,10 +798,15 @@ html, body{
   }
 
   .mobile-nav33, .internal-link33{
+   
     display: block;
     color: #4456FB;
     left: -264px;
     top: 170px;
+  }
+
+  .pageLinks{
+    width: 5vw;
   }
 
   .icon-11{

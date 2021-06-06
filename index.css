@@ -927,7 +927,7 @@ html, body {
 
   .overlay {
     font-style: normal;
-    width: 80vw;
+    width: 70vw;
     height: 686px;
     left: 301px;
     top: -1px;
@@ -936,7 +936,7 @@ html, body {
 
   .top-div {
     font-style: normal;
-    width: 80vw;
+    width: 70vw;
     height: 686px;
     left: 301px;
     top: -1px;
@@ -954,6 +954,9 @@ html, body {
     color: #4456FB;
     left: -264px;
     top: 170px; }
+
+  .pageLinks {
+    width: 5vw; }
 
   .icon-11 {
     display: block; }

@@ -773,7 +773,7 @@ html, body{
     color: black;
     width: 20vw;
     display:inline-block;
-    margin-bottom: 90vh;
+    margin-bottom: 60vh;
   }
   .site-nav2{
     visibility: hidden !important;
@@ -781,14 +781,14 @@ html, body{
 
 
   .overlay {
-    @include box-2(70vw, 686px, 301px, -1px);
+    @include box-2(70vw, 500px, 301px, -1px);
 
     border-radius: 0 0 0 35%;
     float: right;
   }
 
   .top-div{
-    @include box-2(70vw, 686px, 301px, -1px);
+    @include box-2(70vw, 500px, 301px, -1px);
 
     border-radius: 0 0 0 35%;
     float: right;
@@ -1169,6 +1169,11 @@ html, body{
     margin-right: 5vw;
   }
 
+  // .portSec{
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
+
   //about-me
   .about-me-section{
   
@@ -1184,13 +1189,12 @@ html, body{
   }
 
   .about-me2{
-    width: 15vw;
+    width: 50vw;
   }
 
-  .get-resume{
-    left: 517px;
-    top: 1895px;
-  }
+  // .get-resume{
+  //  margin-top: -1vh;
+  // }
 
   .get-resume-text{
     left: 537.44px;
@@ -1260,10 +1264,10 @@ html, body{
   //FOOTER
   .footerBackground{
     // @include box-2(80vw, 50vw, 20vh, 2617px);
-    width: 99vw;
+    width: 100vw;
     // height: 50vw;
     // border-radius: 0 0 40% 40%;
-    margin-right: 0;
+    margin-left: -2vw;
     margin-top: 0;
   }
 

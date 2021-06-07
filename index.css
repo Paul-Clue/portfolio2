@@ -923,7 +923,7 @@ html, body {
     color: black;
     width: 20vw;
     display: inline-block;
-    margin-bottom: 90vh; }
+    margin-bottom: 60vh; }
 
   .site-nav2 {
     visibility: hidden !important; }
@@ -931,7 +931,7 @@ html, body {
   .overlay {
     font-style: normal;
     width: 70vw;
-    height: 686px;
+    height: 500px;
     left: 301px;
     top: -1px;
     border-radius: 0 0 0 35%;
@@ -940,7 +940,7 @@ html, body {
   .top-div {
     font-style: normal;
     width: 70vw;
-    height: 686px;
+    height: 500px;
     left: 301px;
     top: -1px;
     border-radius: 0 0 0 35%;
@@ -1351,11 +1351,7 @@ html, body {
     width: 15vw; }
 
   .about-me2 {
-    width: 15vw; }
-
-  .get-resume {
-    left: 517px;
-    top: 1895px; }
+    width: 50vw; }
 
   .get-resume-text {
     left: 537.44px;
@@ -1408,8 +1404,8 @@ html, body {
     top: 2477px; }
 
   .footerBackground {
-    width: 99vw;
-    margin-right: 0;
+    width: 100vw;
+    margin-left: -2vw;
     margin-top: 0; }
 
   .social-footer {

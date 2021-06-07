@@ -389,29 +389,29 @@ html, body {
   height: 59px;
   left: 30px;
   top: 924px;
-  height: 3vh;
+  padding: 1vw;
   background: #4456FB;
   border-radius: 60px; }
 
 #big-button2 {
   z-index: 4;
-  top: 1291px; }
+  padding: 1vw; }
 
 #big-button3 {
   z-index: 4;
-  top: 1663px; }
+  padding: 1vw; }
 
 #big-button4 {
   z-index: 4;
-  top: 2037px; }
+  padding: 1vw; }
 
 #big-button5 {
   z-index: 4;
-  top: 2411px; }
+  padding: 1vw; }
 
 #big-button6 {
   z-index: 4;
-  top: 2785px; }
+  padding: 1vw; }
 
 #left-button2 {
   z-index: 4;
@@ -870,8 +870,7 @@ html, body {
   width: 27.46px;
   height: 27px;
   left: 30px;
-  top: 5014px;
-  background: #FFFFFF; }
+  top: 5014px; }
 
 .in2 {
   font-style: normal;
@@ -880,8 +879,7 @@ html, body {
   width: 27px;
   height: 22.31px;
   left: 180px;
-  top: 5014px;
-  background: #FFFFFF; }
+  top: 5014px; }
 
 .twitt2 {
   font-style: normal;
@@ -890,8 +888,7 @@ html, body {
   width: 27px;
   height: 22.31px;
   left: 320px;
-  top: 5014px;
-  background: #FFFFFF; }
+  top: 5014px; }
 
 .hline {
   font-style: normal;
@@ -1409,7 +1406,7 @@ html, body {
     margin-top: 0; }
 
   .social-footer {
-    margin-top: 9vh;
+    margin-top: 13vh;
     width: 100vw;
     display: flex;
     justify-self: center; }

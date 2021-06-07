@@ -601,6 +601,7 @@ html, body{
     @include box-4(#4F5461, 145.44px, 23px, 67px, 3196px, Sora, bold, 22px );
 
     line-height: 105.3%;
+    margin-left: 10vw;
   }
 
   /* JavaScript (ES5/ES6) Ruby HTML CSS */
@@ -608,10 +609,11 @@ html, body{
     @include box-4(#737986, 100vw, 151px, 67px, 3238px, Sora, normal, 16px );
 
     line-height: 242.5%;
+    margin-left: 10vw;
   }
 
   .frameworks-background{
-    @include box-2(100vwx, 289px, 35px, 3437px);
+    @include box-2(100vw, 289px, 35px, 3437px);
 
     background: #F5F8FD;
     border-radius: 10px;
@@ -621,13 +623,19 @@ html, body{
     @include box-4(#4F5461, 140px, 23px, 61px, 3468px, Sora, bold, 22px );
 
     line-height: 105.3%;
+    margin-left: 10vw;
   }
 
   .frameworks-text2{
     @include box-4(#737986, 217px, 206px, 61px, 3509px, Sora, normal, 16px );
 
     line-height: 242.5%;
+    margin-left: 10vw;
   }
+
+  // .skills-section{
+  //   margin-left: 50vw;
+  // }
 
   .skills-background{
     @include box-2(100vw, 326px, 35px, 3744px);
@@ -640,12 +648,14 @@ html, body{
     @include box-4(#4F5461, 63px, 23px, 64px, 3775px, Sora, bold, 22px );
 
     line-height: 105.3%;
+    margin-left: 10vw;
   }
 
   .skills-text2{
     @include box-4(#737986, 216px, 232px, 64px, 3816px, Sora, normal, 16px );
 
     line-height: 242.5%;
+    margin-left: 10vw;
   }
 
   .colab-section{
@@ -720,7 +730,7 @@ html, body{
     @include box-4(#C5CBFE, 177px, 34px, 106px, 4914px, Sora, normal, 16px );
 
     line-height: 20px;
-  margin-left: 17vw;
+    margin-left: 9vw;
   }
 
   .social2{
@@ -763,7 +773,7 @@ html, body{
 
   .social-footer{
     // position: relative;
-    margin-left: 60vw;
+    margin-left: 40vw;
     
   }
 
@@ -1203,46 +1213,40 @@ html, body{
 
   //LANGUAGES
   .languages-background{
-    width: 20vw;
+    width: 25vw;
   }
 
   .languages-text{
-    left: 545px;
-    top: 2040px;
+    margin-left: 0vw;
   }
 
   .languages-text2{
-    left: 545px;
-    top: 2110px;
+    margin-left: 0vw;
 
   }
 
   .frameworks-background{
-    width: 20vw;
+    width: 25vw;
   }
 
   .frameworks-text{
-    left: 876px;
-    top: 2040px;
+    margin-left: 0vw;
   }
 
   .frameworks-text2{
-    left: 876px;
-    top: 2110px;
+    margin-left: 0vw;
   }
 
   .skills-background{
-    width: 20vw;
+    width: 25vw;
   }
 
   .skills-text{
-    left: 1213px;
-    top: 2040px;
+    margin-left: 0vw;
   }
 
   .skills-text2{
-    left: 1213px;
-    top: 2110px;
+    margin-left: 0vw;
   }
 
   .set{
@@ -1276,6 +1280,7 @@ html, body{
     width: 100vw;
     display: flex;
     justify-self: center;
+    margin-left: 60vw;
     
   }
 

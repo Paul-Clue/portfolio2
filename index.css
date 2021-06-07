@@ -674,7 +674,8 @@ html, body {
   height: 23px;
   left: 67px;
   top: 3196px;
-  line-height: 105.3%; }
+  line-height: 105.3%;
+  margin-left: 10vw; }
 
 /* JavaScript (ES5/ES6) Ruby HTML CSS */
 .languages-text2 {
@@ -687,11 +688,12 @@ html, body {
   height: 151px;
   left: 67px;
   top: 3238px;
-  line-height: 242.5%; }
+  line-height: 242.5%;
+  margin-left: 10vw; }
 
 .frameworks-background {
   font-style: normal;
-  width: 100vwx;
+  width: 100vw;
   height: 289px;
   left: 35px;
   top: 3437px;
@@ -708,7 +710,8 @@ html, body {
   height: 23px;
   left: 61px;
   top: 3468px;
-  line-height: 105.3%; }
+  line-height: 105.3%;
+  margin-left: 10vw; }
 
 .frameworks-text2 {
   font-style: normal;
@@ -720,7 +723,8 @@ html, body {
   height: 206px;
   left: 61px;
   top: 3509px;
-  line-height: 242.5%; }
+  line-height: 242.5%;
+  margin-left: 10vw; }
 
 .skills-background {
   font-style: normal;
@@ -741,7 +745,8 @@ html, body {
   height: 23px;
   left: 64px;
   top: 3775px;
-  line-height: 105.3%; }
+  line-height: 105.3%;
+  margin-left: 10vw; }
 
 .skills-text2 {
   font-style: normal;
@@ -753,7 +758,8 @@ html, body {
   height: 232px;
   left: 64px;
   top: 3816px;
-  line-height: 242.5%; }
+  line-height: 242.5%;
+  margin-left: 10vw; }
 
 .collaboration-text {
   font-style: normal;
@@ -850,7 +856,7 @@ html, body {
   left: 106px;
   top: 4914px;
   line-height: 20px;
-  margin-left: 17vw; }
+  margin-left: 9vw; }
 
 .social2 {
   font-style: normal;
@@ -913,7 +919,7 @@ html, body {
   line-height: 20px; }
 
 .social-footer {
-  margin-left: 60vw; }
+  margin-left: 40vw; }
 
 @media (min-width: 480px) {
   .siteNav {
@@ -1355,37 +1361,31 @@ html, body {
     top: 1900px; }
 
   .languages-background {
-    width: 20vw; }
+    width: 25vw; }
 
   .languages-text {
-    left: 545px;
-    top: 2040px; }
+    margin-left: 0vw; }
 
   .languages-text2 {
-    left: 545px;
-    top: 2110px; }
+    margin-left: 0vw; }
 
   .frameworks-background {
-    width: 20vw; }
+    width: 25vw; }
 
   .frameworks-text {
-    left: 876px;
-    top: 2040px; }
+    margin-left: 0vw; }
 
   .frameworks-text2 {
-    left: 876px;
-    top: 2110px; }
+    margin-left: 0vw; }
 
   .skills-background {
-    width: 20vw; }
+    width: 25vw; }
 
   .skills-text {
-    left: 1213px;
-    top: 2040px; }
+    margin-left: 0vw; }
 
   .skills-text2 {
-    left: 1213px;
-    top: 2110px; }
+    margin-left: 0vw; }
 
   .set {
     margin-right: 28vh; }
@@ -1409,7 +1409,8 @@ html, body {
     margin-top: 13vh;
     width: 100vw;
     display: flex;
-    justify-self: center; }
+    justify-self: center;
+    margin-left: 60vw; }
 
   form {
     height: 50vh; }

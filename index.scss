@@ -204,6 +204,9 @@ html, body{
     
     background: #FFFFFF;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+   align-content: center;
   }
 
   .social-1{
@@ -583,6 +586,7 @@ html, body{
     font-size: 16px;
     line-height: 105.3%;
     text-align: center;
+    margin-top: 10vh;
   }
 
   /* Rectangle 33 */
@@ -716,7 +720,7 @@ html, body{
     @include box-4(#C5CBFE, 177px, 34px, 106px, 4914px, Sora, normal, 16px );
 
     line-height: 20px;
-    text-align: center;
+  margin-left: 17vw;
   }
 
   .social2{
@@ -754,12 +758,13 @@ html, body{
     @include box-4(#C5CBFE, 194px, 30px, 91px, 5134px, Sora, normal, 16px );
 
     line-height: 20px;
-    text-align: center;
+    
   }
 
   .social-footer{
     // position: relative;
     margin-left: 60vw;
+    
   }
 
 @media (min-width: 480px){
@@ -858,12 +863,13 @@ html, body{
 }
 
 .social{
-  @include box-2(800px, 51px, 300px, 350px);
+  @include box-2(70vw, 51px, 300px, 350px);
+  display: flex;
+  justify-content: space-around;
 }
 
 .social-1{
-  left: 340px;
-  top: 365px;
+  width: 25rem;
 }
 
 .github{
@@ -881,8 +887,13 @@ html, body{
   top: 365px;
 }
 
+.social-top{
+  //  float: right;
+}
+
   .portfolio{
     @include box-2(531px, 29px, 515px, 710px);
+    margin-left: 7vw;
   }
 
   .projects{
@@ -1153,15 +1164,27 @@ html, body{
     top: 1600px;
   }
 
+  .projectsBox{
+    float: left;
+    margin-right: 5vw;
+  }
+
   //about-me
+  .about-me-section{
+  
+  width: 95vw;
+  margin-top: 100px;
+  // margin-left: 10vw;
+
+  }
+
+
   .about-me{
-    left: 517px;
-    top: 1700px;
+    width: 15vw;
   }
 
   .about-me2{
-    left: 517px;
-    top: 1752px;
+    width: 15vw;
   }
 
   .get-resume{
@@ -1176,8 +1199,7 @@ html, body{
 
   //LANGUAGES
   .languages-background{
-    left: 517px;
-    top: 2040px;
+    width: 20vw;
   }
 
   .languages-text{
@@ -1192,8 +1214,7 @@ html, body{
   }
 
   .frameworks-background{
-    left: 850px;
-    top: 2040px;
+    width: 20vw;
   }
 
   .frameworks-text{
@@ -1207,8 +1228,7 @@ html, body{
   }
 
   .skills-background{
-    left: 1184px;
-    top: 2040px;
+    width: 20vw;
   }
 
   .skills-text{
@@ -1219,6 +1239,10 @@ html, body{
   .skills-text2{
     left: 1213px;
     top: 2110px;
+  }
+
+  .set{
+    margin-right: 28vh;
   }
 
   //COLLABORATION
@@ -1236,31 +1260,38 @@ html, body{
   //FOOTER
   .footerBackground{
     // @include box-2(80vw, 50vw, 20vh, 2617px);
-    width: 80vw;
-    height: 50vw;
-    border-radius: 0 0 0 40%;
+    width: 99vw;
+    // height: 50vw;
+    // border-radius: 0 0 40% 40%;
     margin-right: 0;
     margin-top: 0;
   }
 
+  .social-footer{
+    margin-top: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-self: center;
+    
+  }
+
   form{
-    height: 20vh;
+    height: 50vh;
   }
 
   #fname1{
-    left: 517px;
-    top: 2600px;
+    margin-left: 30vw;
+    width: 40vw;
     }
   
     #fname2{
-    left: 870px;
-    top: 2600px;
+      margin-left: 30vw;
+      width: 40vw;
     }
   
     #fname3{
-      width: 685px;
-      left: 517px;
-      top: 2680px;
+      margin-left: 30vw;
+      width: 40vw;
     }
   
     #labe{
@@ -1274,27 +1305,38 @@ html, body{
     }
     
     .github2{
-      left: 1210px;
-      top: 2970px;
+     margin-left: -20vw;
+     margin-right: 5vw;
     }
   
     .in2{
-      left: 1270px;
-      top: 2970px;
+     
     }
   
     .twitt2{
       @include box-2(30px, 30px, 1330px, 2970px);
+      margin-right: 5vw;
+    }
+
+    .email{
+      // margin-right: 18vw;
+      margin-left: 5vw;
     }
   
     .hline{
-      width: 832px;
-      left: 518px;
-      top: 3030px;
+      width: 98vw;
+      margin-top: 0;
     }
   
     .bottom{
-      left: 1177px;
-      top: 3070px;
+      margin-left: 20vw;
+      width: 30vw;
+    }
+
+    .bFix{
+      width: 100vw;
+      display: flex;
+      justify-content: space-evenly;
+      margin-right: 0;
     }
 }

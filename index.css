@@ -204,7 +204,10 @@ html, body {
   left: 13px;
   top: 405px;
   background: #FFFFFF;
-  border-radius: 20px; }
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
 
 .social-1 {
   z-index: 2;
@@ -648,7 +651,8 @@ html, body {
   font-weight: bold;
   font-size: 16px;
   line-height: 105.3%;
-  text-align: center; }
+  text-align: center;
+  margin-top: 10vh; }
 
 /* Rectangle 33 */
 .languages-background {
@@ -846,7 +850,7 @@ html, body {
   left: 106px;
   top: 4914px;
   line-height: 20px;
-  text-align: center; }
+  margin-left: 17vw; }
 
 .social2 {
   font-style: normal;
@@ -909,8 +913,7 @@ html, body {
   height: 30px;
   left: 91px;
   top: 5134px;
-  line-height: 20px;
-  text-align: center; }
+  line-height: 20px; }
 
 .social-footer {
   margin-left: 60vw; }
@@ -994,14 +997,15 @@ html, body {
 
   .social {
     font-style: normal;
-    width: 800px;
+    width: 70vw;
     height: 51px;
     left: 300px;
-    top: 350px; }
+    top: 350px;
+    display: flex;
+    justify-content: space-around; }
 
   .social-1 {
-    left: 340px;
-    top: 365px; }
+    width: 25rem; }
 
   .github {
     left: 900px;
@@ -1020,7 +1024,8 @@ html, body {
     width: 531px;
     height: 29px;
     left: 515px;
-    top: 710px; }
+    top: 710px;
+    margin-left: 7vw; }
 
   .projects {
     font-style: normal;
@@ -1334,13 +1339,19 @@ html, body {
     left: 1010px;
     top: 1600px; }
 
+  .projectsBox {
+    float: left;
+    margin-right: 5vw; }
+
+  .about-me-section {
+    width: 95vw;
+    margin-top: 100px; }
+
   .about-me {
-    left: 517px;
-    top: 1700px; }
+    width: 15vw; }
 
   .about-me2 {
-    left: 517px;
-    top: 1752px; }
+    width: 15vw; }
 
   .get-resume {
     left: 517px;
@@ -1351,8 +1362,7 @@ html, body {
     top: 1900px; }
 
   .languages-background {
-    left: 517px;
-    top: 2040px; }
+    width: 20vw; }
 
   .languages-text {
     left: 545px;
@@ -1363,8 +1373,7 @@ html, body {
     top: 2110px; }
 
   .frameworks-background {
-    left: 850px;
-    top: 2040px; }
+    width: 20vw; }
 
   .frameworks-text {
     left: 876px;
@@ -1375,8 +1384,7 @@ html, body {
     top: 2110px; }
 
   .skills-background {
-    left: 1184px;
-    top: 2040px; }
+    width: 20vw; }
 
   .skills-text {
     left: 1213px;
@@ -1385,6 +1393,9 @@ html, body {
   .skills-text2 {
     left: 1213px;
     top: 2110px; }
+
+  .set {
+    margin-right: 28vh; }
 
   .collaboration-text {
     width: 450px;
@@ -1397,27 +1408,30 @@ html, body {
     top: 2477px; }
 
   .footerBackground {
-    width: 80vw;
-    height: 50vw;
-    border-radius: 0 0 0 40%;
+    width: 99vw;
     margin-right: 0;
     margin-top: 0; }
 
+  .social-footer {
+    margin-top: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-self: center; }
+
   form {
-    height: 20vh; }
+    height: 50vh; }
 
   #fname1 {
-    left: 517px;
-    top: 2600px; }
+    margin-left: 30vw;
+    width: 40vw; }
 
   #fname2 {
-    left: 870px;
-    top: 2600px; }
+    margin-left: 30vw;
+    width: 40vw; }
 
   #fname3 {
-    width: 685px;
-    left: 517px;
-    top: 2680px; }
+    margin-left: 30vw;
+    width: 40vw; }
 
   #labe {
     position: absolute;
@@ -1428,27 +1442,32 @@ html, body {
     top: 2920px; }
 
   .github2 {
-    left: 1210px;
-    top: 2970px; }
-
-  .in2 {
-    left: 1270px;
-    top: 2970px; }
+    margin-left: -20vw;
+    margin-right: 5vw; }
 
   .twitt2 {
     font-style: normal;
     width: 30px;
     height: 30px;
     left: 1330px;
-    top: 2970px; }
+    top: 2970px;
+    margin-right: 5vw; }
+
+  .email {
+    margin-left: 5vw; }
 
   .hline {
-    width: 832px;
-    left: 518px;
-    top: 3030px; }
+    width: 98vw;
+    margin-top: 0; }
 
   .bottom {
-    left: 1177px;
-    top: 3070px; } }
+    margin-left: 20vw;
+    width: 30vw; }
+
+  .bFix {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 0; } }
 
 /*# sourceMappingURL=index.css.map */

@@ -56,6 +56,10 @@ html, body{
   
 }
 
+a{
+  text-decoration: none;
+}
+
 .mobile-nav3, .internal-link3{
   display: none;
   color: #4456FB;
@@ -179,14 +183,16 @@ html, body{
   }
 
   .big-words-mobile{
+    margin-top: 4vh;
     z-index: 2;
     @include box-4(#FFFFFF, 100vw, 43px, 30px, 131px, Sora, bold, 2.2em);
-
+    margin-left: 23vw;
     line-height: 105.3%;
   }
 
   .big-words-mobile2{
     z-index: 2;
+    margin-left: 23vw;
     @include box-4(#FFFFFF, 100vw, 29px, 30px, 194px, Sora, bold, 1.2em );
 
     line-height: 105.3%;
@@ -194,6 +200,7 @@ html, body{
 
   .intro{
     z-index: 2;
+    margin-left: 23vw;
     @include box-4(#FFFFFF, 100vw, 136px, 30px, 257px, Sora, normal, .8em);
 
     line-height: 20px;
@@ -558,7 +565,7 @@ html, body{
     @include box-4(#737986, 100vw, 111px, 35px, 2917px, Sora, normal, 16px );
 
     line-height: 20px;
-    margin-bottom: 0;
+    margin-bottom: -13vh;
   }
 
   /* Rectangle 11 */
@@ -659,7 +666,8 @@ html, body{
   }
 
   .colab-section{
-    // margin-bottom: 5vh;
+    float: right;
+     width: 100vw;
   }
 
   .collaboration-text{
@@ -1187,7 +1195,7 @@ html, body{
   //about-me
   .about-me-section{
   
-  width: 95vw;
+  width: 60vw;
   margin-top: 100px;
   // margin-left: 10vw;
 
@@ -1199,7 +1207,7 @@ html, body{
   }
 
   .about-me2{
-    width: 50vw;
+    width: 30vw;
   }
 
   // .get-resume{
@@ -1254,15 +1262,18 @@ html, body{
   }
 
   //COLLABORATION
+  .colab-section{
+     width: 65vw;
+  }
+
+
   .collaboration-text{
-    width: 450px;
-    left: 517px;
-    top: 2425px;
+    width: 30vw;
+  
   }
   .collaboration-text2{
-    width: 600px;
-    left: 517px;
-    top: 2477px;
+    width: 30vw;
+  
   }
 
   //FOOTER
@@ -1338,14 +1349,14 @@ html, body{
     }
   
     .bottom{
-      margin-left: 20vw;
-      width: 30vw;
+      margin-left: 5vw;
+      width: 50vw;
     }
 
     .bFix{
       width: 100vw;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: flex-end ;
       margin-right: 0;
     }
 }

@@ -4,6 +4,9 @@ html, body {
   width: 100%;
   overflow-x: hidden; }
 
+a {
+  text-decoration: none; }
+
 .mobile-nav3, .internal-link3 {
   display: none;
   color: #4456FB;
@@ -157,6 +160,7 @@ html, body {
   text-decoration: none; }
 
 .big-words-mobile {
+  margin-top: 4vh;
   z-index: 2;
   font-style: normal;
   font-family: Sora;
@@ -167,10 +171,12 @@ html, body {
   height: 43px;
   left: 30px;
   top: 131px;
+  margin-left: 23vw;
   line-height: 105.3%; }
 
 .big-words-mobile2 {
   z-index: 2;
+  margin-left: 23vw;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -184,6 +190,7 @@ html, body {
 
 .intro {
   z-index: 2;
+  margin-left: 23vw;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
@@ -614,7 +621,7 @@ html, body {
   left: 35px;
   top: 2917px;
   line-height: 20px;
-  margin-bottom: 0; }
+  margin-bottom: -13vh; }
 
 /* Rectangle 11 */
 .get-resume {
@@ -760,6 +767,10 @@ html, body {
   top: 3816px;
   line-height: 242.5%;
   margin-left: 17vw; }
+
+.colab-section {
+  float: right;
+  width: 100vw; }
 
 .collaboration-text {
   font-style: normal;
@@ -1347,14 +1358,14 @@ html, body {
     margin-right: 5vw; }
 
   .about-me-section {
-    width: 95vw;
+    width: 60vw;
     margin-top: 100px; }
 
   .about-me {
     width: 15vw; }
 
   .about-me2 {
-    width: 50vw; }
+    width: 30vw; }
 
   .get-resume-text {
     left: 537.44px;
@@ -1390,15 +1401,14 @@ html, body {
   .set {
     margin-right: 28vh; }
 
+  .colab-section {
+    width: 65vw; }
+
   .collaboration-text {
-    width: 450px;
-    left: 517px;
-    top: 2425px; }
+    width: 30vw; }
 
   .collaboration-text2 {
-    width: 600px;
-    left: 517px;
-    top: 2477px; }
+    width: 30vw; }
 
   .footerBackground {
     width: 100vw;
@@ -1455,13 +1465,13 @@ html, body {
     margin-top: 0; }
 
   .bottom {
-    margin-left: 20vw;
-    width: 30vw; }
+    margin-left: 5vw;
+    width: 50vw; }
 
   .bFix {
     width: 100vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     margin-right: 0; } }
 
 /*# sourceMappingURL=index.css.map */

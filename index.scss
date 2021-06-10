@@ -80,6 +80,7 @@ a{
 
 #pc1{
   display: none;
+  padding-top: 2vh;
 }
 .site-nav2{
   visibility: hidden;
@@ -114,6 +115,7 @@ a{
     z-index: 2;
     margin-left: 25%;
     z-index: 2;
+    padding-top: 2vh;
   }
 
   .mobile-nav{
@@ -250,9 +252,9 @@ a{
 
   .projects{
     @include box-1(#FFFFFF, 100vw, 217.24px, 30px, 644px );
-
+    background-color: #F5F8FD;
     z-index: 2;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
+    // background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
     border-radius: 10px;
@@ -344,21 +346,21 @@ a{
   .left-button{
     @include box-2(91px, 30px, 30px, 878px );
     z-index: 4;
-    background: #4F5461;
+    background: #4456FB;
     border-radius: 40px;
   }
   .middle-button{
     z-index: 4;
     @include box-2(111px, 30px, 128px, 878px );
 
-    background: #4F5461;
+    background: #4456FB;
     border-radius: 40px;
   }
   .right-button{
     z-index: 4;
     @include box-2(91px, 30px, 264px, 878px );
 
-    background: #4F5461;
+    background: #4456FB;
     border-radius: 40px;
   }
   .big-button{
@@ -576,6 +578,7 @@ a{
     margin-top: 1vh;
     background: #4456FB;
     border-radius: 60px;
+    padding: 1vw;
   }
 
   .get-resume-text{
@@ -668,6 +671,7 @@ a{
   .colab-section{
     float: right;
      width: 100vw;
+     margin-bottom: -9vh;
   }
 
   .collaboration-text{
@@ -728,7 +732,7 @@ a{
   }
 
   #form-button{
-    @include box-2(100%, 59px, 22px, 4819px);
+    @include box-2(20vw, 59px, 22px, 4819px);
 
     background: #FA4969;
     border-radius: 60px;
@@ -838,7 +842,7 @@ a{
   }
 
   #pc1{
-   
+    padding-top: 2vh;
     display: block;
   }
 
@@ -909,9 +913,19 @@ a{
   //  float: right;
 }
 
+.portfolioDiv{
+  display: flex;
+  justify-content: space-evenly;
+  float: right;
+}
+ .fixx{
+   margin-right: 2vw;
+ }
+
   .portfolio{
     @include box-2(531px, 29px, 515px, 710px);
-    margin-left: 7vw;
+    margin-left: 45vw;
+    // float:right;
   }
 
   .projects{
@@ -997,19 +1011,19 @@ a{
   .left-button{
     @include box-2(91px, 30px, 530px, 810px);
 
-    background: #4F5461;
+    background: #4456FB;
     border-radius: 40px;
   }
   .middle-button{
     @include box-2(111px, 30px, 630px, 810px);
 
-    background: #4F5461;
+    background: #4456FB;
     border-radius: 40px;
   }
   .right-button{
     @include box-2(91px, 30px, 750px, 810px);
 
-    background: #4F5461;
+    background: #4456FB;
     border-radius: 40px;
   }
 
@@ -1182,11 +1196,6 @@ a{
     top: 1600px;
   }
 
-  .projectsBox{
-    float: left;
-    margin-right: 5vw;
-  }
-
   // .portSec{
   //   display: flex;
   //   justify-content: space-between;
@@ -1195,7 +1204,7 @@ a{
   //about-me
   .about-me-section{
   
-  width: 60vw;
+  width: 55vw;
   margin-top: 100px;
   // margin-left: 10vw;
 
@@ -1221,49 +1230,52 @@ a{
 
   //LANGUAGES
   .languages-background{
-    width: 20vw;
+    width: 15vw;
+    height: 45vh;
   }
 
   .languages-text{
-    margin-left: 0vw;
+    margin-left: 1vw;
   }
 
   .languages-text2{
-    margin-left: 0vw;
+    margin-left: 1vw;
 
   }
 
   .frameworks-background{
-    width: 20vw;
+    width: 15vw;
+    height: 45vh;
   }
 
   .frameworks-text{
-    margin-left: 0vw;
+    margin-left: 1vw;
   }
 
   .frameworks-text2{
-    margin-left: 0vw;
+    margin-left: 1vw;
   }
 
   .skills-background{
-    width: 20vw;
+    width: 15vw;
+    height: 45vh;
   }
 
   .skills-text{
-    margin-left: 0vw;
+    margin-left: 1vw;
   }
 
   .skills-text2{
-    margin-left: 0vw;
+    margin-left: 1vw;
   }
 
   .set{
-    margin-right: 28vh;
+    margin-right: 10vh;
   }
 
   //COLLABORATION
   .colab-section{
-     width: 65vw;
+     width: 55vw;
   }
 
 
@@ -1279,11 +1291,12 @@ a{
   //FOOTER
   .footerBackground{
     // @include box-2(80vw, 50vw, 20vh, 2617px);
-    width: 100vw;
+    width: 70vw;
     // height: 50vw;
-    // border-radius: 0 0 40% 40%;
-    margin-left: -2vw;
-    margin-top: 0;
+    border-radius: 10% 0 0 40%;
+    // margin-left: -2vw;
+    // margin-top: 0;
+    float: right;
   }
 
   .social-footer{
@@ -1300,17 +1313,17 @@ a{
   }
 
   #fname1{
-    margin-left: 30vw;
+    margin-left: 10vw;
     width: 40vw;
     }
   
     #fname2{
-      margin-left: 30vw;
+      margin-left: 10vw;
       width: 40vw;
     }
   
     #fname3{
-      margin-left: 30vw;
+      margin-left: 10vw;
       width: 40vw;
     }
   
@@ -1320,8 +1333,7 @@ a{
     }
   
     #form-button{
-      left: 517px;
-      top: 2920px;
+      margin-left: 15vw;
     }
     
     .github2{
@@ -1340,7 +1352,8 @@ a{
 
     .email{
       // margin-right: 18vw;
-      margin-left: 5vw;
+      margin-bottom: -10vh;
+      margin-left: 50vw;
     }
   
     .hline{

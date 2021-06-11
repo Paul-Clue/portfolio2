@@ -488,7 +488,7 @@ a {
   font-family: Poppins;
   font-weight: 500;
   font-size: 14px;
-  color: #E6E9F0;
+  color: #ffffff;
   width: 81px;
   height: 21px;
   left: 35px;
@@ -502,7 +502,7 @@ a {
   font-family: Poppins;
   font-weight: 500;
   font-size: 14px;
-  color: #E6E9F0;
+  color: #ffffff;
   width: 111px;
   height: 21px;
   left: 128px;
@@ -516,7 +516,7 @@ a {
   font-family: Poppins;
   font-weight: 500;
   font-size: 14px;
-  color: #E6E9F0;
+  color: #ffffff;
   width: 91px;
   height: 21px;
   left: 265px;
@@ -617,7 +617,7 @@ a {
   font-family: Sora;
   font-weight: normal;
   font-size: 16px;
-  color: #737986;
+  color: #4F5461;
   width: 100vw;
   height: 111px;
   left: 35px;
@@ -1043,6 +1043,9 @@ a {
     justify-content: space-evenly;
     float: right; }
 
+  #portfolioDiv11 {
+    margin-left: 5vw; }
+
   .fixx {
     margin-right: 2vw; }
 
@@ -1123,6 +1126,15 @@ a {
   #sixth {
     display: none;
     top: 2526px; }
+
+  #wordMargin1 {
+    margin-top: 11vh; }
+
+  #wordMargin2 {
+    margin-top: 3vh; }
+
+  #wordMargin3 {
+    margin-top: 13vh; }
 
   .big-button {
     font-style: normal;
@@ -1239,7 +1251,7 @@ a {
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
-    color: #E6E9F0;
+    color: #ffffff;
     width: 81px;
     height: 21px;
     left: 535px;
@@ -1252,7 +1264,7 @@ a {
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
-    color: #E6E9F0;
+    color: #ffffff;
     width: 111px;
     height: 21px;
     left: 630px;
@@ -1265,7 +1277,7 @@ a {
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
-    color: #E6E9F0;
+    color: #ffffff;
     width: 91px;
     height: 21px;
     left: 750px;

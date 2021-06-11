@@ -221,7 +221,7 @@ a{
 
   .social-1{
     z-index: 2;
-    @include box-4(darkgrey, 100vw, 34px, 31px, 425px, Sora, normal, 1.5rem);
+    @include box-4(#4F5461, 100vw, 34px, 31px, 425px, Sora, normal, 1.5rem);
     
 
     line-height: 20px;

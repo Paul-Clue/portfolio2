@@ -272,6 +272,10 @@ a{
     border-radius: 10px;
   }
 
+  .projectText{
+    font-size: .7rem;
+  }
+
   
 
 .projects-title{
@@ -343,6 +347,18 @@ a{
   #sixth{
    
     top: 2526px;
+  }
+
+  #wordMargin1{
+    margin-top: 11vh;
+  }
+
+  #wordMargin2{
+    margin-top: 3vh;
+  }
+
+  #wordMargin3{
+    margin-top: 13vh;
   }
 
   .left-button{
@@ -557,6 +573,15 @@ a{
     top: 2798px;
   }
 
+  .portSec{
+    width: 100vw;
+  }
+
+  .firstButton{
+  margin-right: 5vw;
+  margin-left: 3vw;
+  }
+
   /* About me */
   .about-me{
     @include box-4(#4F5461, 159px, 29px, 35px, 2870px, Sora, bold, 28px );
@@ -570,6 +595,7 @@ a{
 
     line-height: 20px;
     margin-bottom: -13vh;
+    font-size: .6rem;
   }
 
   /* Rectangle 11 */
@@ -677,7 +703,7 @@ a{
   }
 
   .collaboration-text{
-    @include box-4(#4F5461, 213px, 58px, 35px, 4119px, Sora, bold, 28px );
+    @include box-4(#4F5461, 100vw, 58px, 35px, 4119px, Sora, bold, 28px );
 
     line-height: 105.3%;
   }
@@ -693,9 +719,11 @@ a{
 
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
   // transform: matrix(1, 0, 0, -1, 0, 0);
-  margin-top: 18vh;
+  margin-top: 25vh;
   padding-top: 3vh;
   }
+
+  // style="float: right; width: 98vw; margin-top: 25vh;"
 
   #fname1{
     @include box-2(100%, 59px, 22px, 4434px);
@@ -744,7 +772,7 @@ a{
     @include box-4(#C5CBFE, 177px, 34px, 106px, 4914px, Sora, normal, 16px );
 
     line-height: 20px;
-    margin-left: 9vw;
+    margin-left: 30vw;
   }
 
   .social2{
@@ -782,6 +810,7 @@ a{
     @include box-4(#C5CBFE, 194px, 30px, 91px, 5134px, Sora, normal, 16px );
 
     line-height: 20px;
+    margin-left: 30vw;
     
   }
 
@@ -789,6 +818,12 @@ a{
     // position: relative;
     margin-left: 40vw;
     
+  }
+
+  .footerClass{
+    float: right; 
+    width: 98vw;
+    margin-top: 10vh;
   }
 
 @media (min-width: 480px){
@@ -919,7 +954,10 @@ a{
   display: flex;
   justify-content: space-evenly;
   float: right;
+  margin-top: 10vh;
 }
+
+
 
 #portfolioDiv11{
   margin-left: 5vw;
@@ -1122,6 +1160,10 @@ a{
     text-align: center;
   }
 
+  .projectText{
+    font-size: 1rem;
+  }
+
   .l-2L{
     left: 965px;
     top: 815px;
@@ -1215,10 +1257,9 @@ a{
     top: 1600px;
   }
 
-  // .portSec{
-  //   display: flex;
-  //   justify-content: space-between;
-  // }
+  .portSec{
+    width: 80vw;
+  }
 
   //about-me
   .about-me-section{
@@ -1303,7 +1344,7 @@ a{
   
   }
   .collaboration-text2{
-    width: 30vw;
+    width: 70vw;
   
   }
 
@@ -1373,6 +1414,7 @@ a{
       // margin-right: 18vw;
       margin-bottom: -10vh;
       margin-left: 50vw;
+      margin-top: 25vh;
     }
   
     .hline{
@@ -1391,4 +1433,20 @@ a{
       justify-content: flex-end ;
       margin-right: 0;
     }
+
+    #wordMargin2{
+      margin-top: 7vh;
+    }
+}
+
+@media (min-width: 2075px){
+  .firstButton{
+    margin-right: 2vw;
+    margin-left: 1vw;
+
+  }
+
+  #wordMargin2{
+    margin-top: 7vh;
+  }
 }

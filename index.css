@@ -303,6 +303,9 @@ a {
   box-sizing: border-box;
   border-radius: 10px; }
 
+.projectText {
+  font-size: .7rem; }
+
 .projects-title {
   display: none; }
 
@@ -361,6 +364,15 @@ a {
 
 #sixth {
   top: 2526px; }
+
+#wordMargin1 {
+  margin-top: 11vh; }
+
+#wordMargin2 {
+  margin-top: 3vh; }
+
+#wordMargin3 {
+  margin-top: 13vh; }
 
 .left-button {
   font-style: normal;
@@ -599,6 +611,13 @@ a {
 .big-6 {
   top: 2798px; }
 
+.portSec {
+  width: 100vw; }
+
+.firstButton {
+  margin-right: 5vw;
+  margin-left: 3vw; }
+
 /* About me */
 .about-me {
   font-style: normal;
@@ -624,7 +643,8 @@ a {
   left: 35px;
   top: 2917px;
   line-height: 20px;
-  margin-bottom: -13vh; }
+  margin-bottom: -13vh;
+  font-size: .6rem; }
 
 /* Rectangle 11 */
 .get-resume {
@@ -783,7 +803,7 @@ a {
   font-weight: bold;
   font-size: 28px;
   color: #4F5461;
-  width: 213px;
+  width: 100vw;
   height: 58px;
   left: 35px;
   top: 4119px;
@@ -808,7 +828,7 @@ a {
   left: 0;
   top: 4414px;
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
-  margin-top: 18vh;
+  margin-top: 25vh;
   padding-top: 3vh; }
 
 #fname1 {
@@ -872,7 +892,7 @@ a {
   left: 106px;
   top: 4914px;
   line-height: 20px;
-  margin-left: 9vw; }
+  margin-left: 30vw; }
 
 .social2 {
   font-style: normal;
@@ -932,10 +952,16 @@ a {
   height: 30px;
   left: 91px;
   top: 5134px;
-  line-height: 20px; }
+  line-height: 20px;
+  margin-left: 30vw; }
 
 .social-footer {
   margin-left: 40vw; }
+
+.footerClass {
+  float: right;
+  width: 98vw;
+  margin-top: 10vh; }
 
 @media (min-width: 480px) {
   .siteNav {
@@ -1042,7 +1068,8 @@ a {
   .portfolioDiv {
     display: flex;
     justify-content: space-evenly;
-    float: right; }
+    float: right;
+    margin-top: 10vh; }
 
   #portfolioDiv11 {
     margin-left: 5vw; }
@@ -1286,6 +1313,9 @@ a {
     line-height: 21px;
     text-align: center; }
 
+  .projectText {
+    font-size: 1rem; }
+
   .l-2L {
     left: 965px;
     top: 815px; }
@@ -1379,6 +1409,9 @@ a {
     left: 1010px;
     top: 1600px; }
 
+  .portSec {
+    width: 80vw; }
+
   .about-me-section {
     width: 55vw;
     margin-top: 100px; }
@@ -1433,7 +1466,7 @@ a {
     width: 30vw; }
 
   .collaboration-text2 {
-    width: 30vw; }
+    width: 70vw; }
 
   .footerBackground {
     width: 70vw;
@@ -1483,7 +1516,8 @@ a {
 
   .email {
     margin-bottom: -10vh;
-    margin-left: 50vw; }
+    margin-left: 50vw;
+    margin-top: 25vh; }
 
   .hline {
     width: 98vw;
@@ -1497,6 +1531,16 @@ a {
     width: 100vw;
     display: flex;
     justify-content: flex-end;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  #wordMargin2 {
+    margin-top: 7vh; } }
+@media (min-width: 2075px) {
+  .firstButton {
+    margin-right: 2vw;
+    margin-left: 1vw; }
+
+  #wordMargin2 {
+    margin-top: 7vh; } }
 
 /*# sourceMappingURL=index.css.map */

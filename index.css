@@ -173,13 +173,13 @@ a {
   height: 43px;
   left: 30px;
   top: 131px;
-  margin-left: 3vw;
+  margin-left: 1vw;
   margin-bottom: 5vh;
   line-height: 105.3%; }
 
 .big-words-mobile2 {
   z-index: 2;
-  margin-left: 3vw;
+  margin-left: 1vw;
   font-style: normal;
   font-family: Sora;
   font-weight: bold;
@@ -193,7 +193,7 @@ a {
 
 .intro {
   z-index: 2;
-  margin-left: 3vw;
+  margin-left: 1vw;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;

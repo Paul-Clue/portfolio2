@@ -457,7 +457,7 @@ a{
 
   .left-text{
     z-index: 5;
-    @include box-4(#E6E9F0, 81px, 21px, 35px, 884px, Poppins, 500, 14px );
+    @include box-4(#ffffff, 81px, 21px, 35px, 884px, Poppins, 500, 14px );
 
     line-height: 21px;
     text-align: center;
@@ -465,7 +465,7 @@ a{
 
   .middle-text{
     z-index: 5;
-    @include box-4(#E6E9F0, 111px, 21px, 128px, 883px, Poppins, 500, 14px );
+    @include box-4(#ffffff, 111px, 21px, 128px, 883px, Poppins, 500, 14px );
 
     line-height: 21px;
     text-align: center;
@@ -473,7 +473,7 @@ a{
 
   .right-text{
     z-index: 5;
-    @include box-4(#E6E9F0, 91px, 21px, 265px, 883px, Poppins, 500, 14px );
+    @include box-4(#ffffff, 91px, 21px, 265px, 883px, Poppins, 500, 14px );
 
     line-height: 21px;
     text-align: center;
@@ -564,7 +564,7 @@ a{
   }
 
   .about-me2{
-    @include box-4(#737986, 100vw, 111px, 35px, 2917px, Sora, normal, 16px );
+    @include box-4(#4F5461, 100vw, 111px, 35px, 2917px, Sora, normal, 16px );
 
     line-height: 20px;
     margin-bottom: -13vh;
@@ -1083,21 +1083,21 @@ a{
   }
 
   .left-text{
-    @include box-4(#E6E9F0, 81px, 21px, 535px, 815px, Poppins, 500, 14px );
+    @include box-4(#ffffff, 81px, 21px, 535px, 815px, Poppins, 500, 14px );
 
     line-height: 21px;
     text-align: center;
   }
 
   .middle-text{
-    @include box-4(#E6E9F0, 111px, 21px, 630px, 815px, Poppins, 500, 14px );
+    @include box-4(#ffffff, 111px, 21px, 630px, 815px, Poppins, 500, 14px );
 
     line-height: 21px;
     text-align: center;
   }
 
   .right-text{
-    @include box-4(#E6E9F0, 91px, 21px, 750px, 815px, Poppins, 500, 14px );
+    @include box-4(#ffffff, 91px, 21px, 750px, 815px, Poppins, 500, 14px );
 
     line-height: 21px;
     text-align: center;

@@ -188,14 +188,14 @@ a{
     margin-top: 4vh;
     z-index: 2;
     @include box-4(#FFFFFF, 100vw, 43px, 30px, 131px, Sora, bold, 2.2em);
-    margin-left: 23vw;
+    margin-left: 20vw;
     margin-bottom: 5vh;
     line-height: 105.3%;
   }
 
   .big-words-mobile2{
     z-index: 2;
-    margin-left: 23vw;
+    margin-left: 20vw;
     @include box-4(#FFFFFF, 80vw, 29px, 30px, 194px, Sora, bold, 1.2em );
 
     line-height: 105.3%;

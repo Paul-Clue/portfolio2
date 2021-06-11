@@ -1520,8 +1520,9 @@ a {
     margin-top: 25vh; }
 
   .hline {
-    width: 98vw;
-    margin-top: 0; }
+    width: 61vw;
+    margin-top: 0;
+    float: right; }
 
   .bottom {
     margin-left: 5vw;

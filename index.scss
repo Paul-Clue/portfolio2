@@ -187,7 +187,7 @@ a{
   .big-words-mobile{
     margin-top: 4vh;
     z-index: 2;
-    @include box-4(#FFFFFF, 100vw, 43px, 30px, 131px, Sora, bold, 2.2em);
+    @include box-4(#FFFFFF, 100vw, 43px, 30px, 131px, Sora, bold, 2.2rem);
     margin-left: 5vw;
     margin-bottom: 5vh;
     line-height: 105.3%;
@@ -196,7 +196,7 @@ a{
   .big-words-mobile2{
     z-index: 2;
     margin-left: 5vw;
-    @include box-4(#FFFFFF, 80vw, 29px, 30px, 194px, Sora, bold, 1.2em );
+    @include box-4(#FFFFFF, 80vw, 29px, 30px, 194px, Sora, bold, 1.2rem );
 
     line-height: 105.3%;
   }
@@ -204,7 +204,7 @@ a{
   .intro{
     z-index: 2;
     margin-left: 5vw;
-    @include box-4(#FFFFFF, 100vw, 136px, 30px, 257px, Sora, normal, .8em);
+    @include box-4(#FFFFFF, 100vw, 136px, 30px, 257px, Sora, normal, .8rem);
 
     line-height: 20px;
   }

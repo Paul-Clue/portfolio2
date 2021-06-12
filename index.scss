@@ -826,6 +826,12 @@ a{
     margin-top: 10vh;
   }
 
+  @media (min-width: 480px){
+    .fixx2{
+      
+    }
+  }
+
 @media (min-width: 480px){
   .siteNav{
     
@@ -1449,5 +1455,9 @@ a{
 
   #wordMargin2{
     margin-top: 7vh;
+  }
+
+  .email{
+    margin-top: 10vh;
   }
 }

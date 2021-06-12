@@ -162,7 +162,7 @@ a {
   text-decoration: none; }
 
 .big-words-mobile {
-  margin-top: 4vh;
+  margin-top: 43px;
   z-index: 2;
   font-style: normal;
   font-family: Sora;
@@ -174,7 +174,7 @@ a {
   left: 30px;
   top: 131px;
   margin-left: 0;
-  margin-bottom: 5vh;
+  margin-bottom: 54px;
   line-height: 105.3%; }
 
 .big-words-mobile2 {
@@ -366,13 +366,13 @@ a {
   top: 2526px; }
 
 #wordMargin1 {
-  margin-top: 11vh; }
+  margin-top: 25px; }
 
 #wordMargin2 {
-  margin-top: 3vh; }
+  margin-top: 0; }
 
 #wordMargin3 {
-  margin-top: 13vh; }
+  margin-top: 40px; }
 
 .left-button {
   font-style: normal;
@@ -615,8 +615,11 @@ a {
   width: 100vw; }
 
 .firstButton {
-  margin-right: 5vw;
-  margin-left: 3vw; }
+  margin-right: 54px;
+  margin-left: 32px; }
+
+.fixx3 {
+  margin-right: 5px; }
 
 /* About me */
 .about-me {
@@ -643,7 +646,7 @@ a {
   left: 35px;
   top: 2917px;
   line-height: 20px;
-  margin-bottom: -13vh;
+  margin-bottom: 140px;
   font-size: .6rem; }
 
 /* Rectangle 11 */
@@ -654,8 +657,8 @@ a {
   left: 35px;
   top: 3065px;
   height: 3vh;
-  margin-bottom: 10vh;
-  margin-top: 1vh;
+  margin-bottom: 108px;
+  margin-top: 11px;
   background: #4456FB;
   border-radius: 60px;
   padding: 1vw; }
@@ -683,7 +686,7 @@ a {
   font-size: 16px;
   line-height: 105.3%;
   text-align: center;
-  margin-top: 10vh; }
+  margin-top: 108px; }
 
 /* Rectangle 33 */
 .languages-background {
@@ -795,7 +798,7 @@ a {
 .colab-section {
   float: right;
   width: 100vw;
-  margin-bottom: -9vh; }
+  margin-bottom: -97px; }
 
 .collaboration-text {
   font-style: normal;
@@ -828,8 +831,8 @@ a {
   left: 0;
   top: 4414px;
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
-  margin-top: 25vh;
-  padding-top: 3vh; }
+  margin-top: 270px;
+  padding-top: 32px; }
 
 #fname1 {
   font-style: normal;
@@ -842,7 +845,7 @@ a {
   box-sizing: border-box;
   box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
   border-radius: 14px;
-  margin-bottom: 3vh; }
+  margin-bottom: 32px; }
 
 #fname2 {
   font-style: normal;
@@ -961,14 +964,14 @@ a {
 .footerClass {
   float: right;
   width: 98vw;
-  margin-top: 10vh; }
+  margin-top: 108px; }
 
 @media (min-width: 480px) {
   .siteNav {
     color: black;
     width: 20vw;
     display: inline-block;
-    margin-bottom: 60vh; }
+    margin-bottom: 648px; }
 
   .site-nav2 {
     visibility: hidden !important; }
@@ -1069,7 +1072,7 @@ a {
     display: flex;
     justify-content: space-evenly;
     float: right;
-    margin-top: 10vh; }
+    margin-top: 108px; }
 
   #portfolioDiv11 {
     margin-left: 5vw; }
@@ -1156,13 +1159,13 @@ a {
     top: 2526px; }
 
   #wordMargin1 {
-    margin-top: 11vh; }
+    margin-top: 55px; }
 
   #wordMargin2 {
-    margin-top: 3vh; }
+    margin-top: 35px; }
 
   #wordMargin3 {
-    margin-top: 13vh; }
+    margin-top: 55px; }
 
   .big-button {
     font-style: normal;
@@ -1438,7 +1441,7 @@ a {
 
   .frameworks-background {
     width: 15vw;
-    height: 45vh; }
+    height: 486px; }
 
   .frameworks-text {
     margin-left: 1vw; }
@@ -1457,7 +1460,7 @@ a {
     margin-left: 1vw; }
 
   .set {
-    margin-right: 10vh; }
+    margin-right: 108px; }
 
   .colab-section {
     width: 55vw; }
@@ -1474,7 +1477,7 @@ a {
     float: right; }
 
   .social-footer {
-    margin-top: 13vh;
+    margin-top: 140px;
     width: 100vw;
     display: flex;
     justify-self: center;
@@ -1515,9 +1518,8 @@ a {
     margin-right: 5vw; }
 
   .email {
-    margin-bottom: -10vh;
-    margin-left: 50vw;
-    margin-top: 25vh; }
+    margin-bottom: -108px;
+    margin-left: 50vw; }
 
   .hline {
     width: 61vw;
@@ -1532,19 +1534,18 @@ a {
     width: 100vw;
     display: flex;
     justify-content: flex-end;
-    margin-right: 0; }
-
-  #wordMargin2 {
-    margin-top: 7vh; } }
-@media (min-width: 2075px) {
-  .firstButton {
-    margin-right: 2vw;
-    margin-left: 1vw; }
-
-  #wordMargin2 {
-    margin-top: 7vh; }
-
+    margin-right: 0; } }
+@media (min-width: 1920px) {
   .email {
-    margin-top: 0; } }
+    margin-top: -108px; }
+
+  .bFix {
+    margin-bottom: 216px; }
+
+  .hline {
+    width: 98%; }
+
+  .footerBackground {
+    margin-top: 50px; } }
 
 /*# sourceMappingURL=index.css.map */

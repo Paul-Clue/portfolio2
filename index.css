@@ -805,8 +805,7 @@ a {
   float: right;
   width: 90vw;
   margin-bottom: -97px;
-  margin-right: 20px;
-  padding: 10px; }
+  margin-right: 30px; }
 
 .collaboration-text {
   font-style: normal;
@@ -840,7 +839,7 @@ a {
   left: 0;
   top: 4414px;
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
-  margin-top: 80px;
+  margin-top: 130px;
   padding-top: 32px; }
 
 #fname1 {
@@ -1484,7 +1483,9 @@ a {
 
   .colab-section {
     width: 55vw;
-    margin-top: 70px; }
+    margin-top: 70px;
+    padding: 20px;
+    margin-right: 100px; }
 
   .collaboration-text {
     width: 30vw; }

@@ -93,6 +93,7 @@ a{
 
     background: linear-gradient(248.05deg,  rgba(68.2%, 35.7%, 83.9%, 0.7)  24.1%, rgba(25.1%, 32.2%, 94.1%, 0.7) 99.44%);
     z-index: 0;
+    
   }
   .top-div{
     @include box-2(100vw, 550px, 0, -1px );
@@ -101,6 +102,7 @@ a{
     object-fit: cover;
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
+   
   }
 
   .icon-1{
@@ -199,6 +201,7 @@ a{
     @include box-4(#FFFFFF, 80vw, 29px, 30px, 194px, Sora, bold, 1.2rem );
 
     line-height: 105.3%;
+    
   }
 
   .intro{
@@ -207,6 +210,7 @@ a{
     @include box-4(#FFFFFF, 100vw, 136px, 30px, 257px, Sora, normal, .8rem);
 
     line-height: 20px;
+    
   }
 
   .social{
@@ -217,14 +221,17 @@ a{
     display: flex;
     justify-content: center;
    align-content: center;
+   margin-top: -10px;
   }
 
   .social-1{
     z-index: 2;
-    @include box-4(#4F5461, 100vw, 34px, 31px, 425px, Sora, normal, 1.5rem);
+    @include box-4(#4F5461, 80vw, 34px, 31px, 425px, Sora, normal, 1rem);
     
 
     line-height: 20px;
+    margin-right: -10px;
+    width: 50vw;
   }
 
   .github{
@@ -247,7 +254,6 @@ a{
 
   .portfolio{
     @include box-4(#4F5461, 100vw, 29px, 28px, 585px, Sora, bold, 28px);
-
     line-height: 105.3%;
   }
 
@@ -270,13 +276,12 @@ a{
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
     border-radius: 10px;
+    background-repeat: no-repeat;
   }
 
   .projectText{
     font-size: .7rem;
   }
-
-  
 
 .projects-title{
   display: none;
@@ -287,7 +292,7 @@ a{
     object-fit: cover;
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
-    top: 1012px;
+    background-repeat: no-repeat;
   }
   #third-div{
     background: url("assets/img/Screenshot(27).png");
@@ -295,6 +300,7 @@ a{
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
     top: 1382px;
+    background-repeat: no-repeat;
   }
   #fourth-div{
     // background: url("assets/img/promo-site.png");
@@ -310,6 +316,7 @@ a{
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
     top: 2126px;
+    // background-repeat: no-repeat;
   }
 
   #sixth-div{
@@ -575,6 +582,7 @@ a{
 
   .portSec{
     width: 100vw;
+    margin-top: -20px;
   }
 
   .firstButton{
@@ -598,15 +606,15 @@ a{
     @include box-4(#4F5461, 100vw, 111px, 35px, 2917px, Sora, normal, 16px );
 
     line-height: 20px;
-    margin-bottom: 140px;
-    font-size: .6rem;
+    margin-bottom: 25px;
+    font-size: .8rem;
   }
 
   /* Rectangle 11 */
   .get-resume{
     @include box-2(193px, 59px, 35px, 3065px );
     height: 3vh;
-    margin-bottom: 108px;
+    margin-bottom: 50px;
     margin-top: 11px;
     background: #4456FB;
     border-radius: 60px;
@@ -628,7 +636,7 @@ a{
     font-size: 16px;
     line-height: 105.3%;
     text-align: center;
-    margin-top: 108px;
+    margin-top: 0;
   }
 
   /* Rectangle 33 */
@@ -675,10 +683,6 @@ a{
     margin-left: 17vw;
   }
 
-  // .skills-section{
-  //   margin-left: 50vw;
-  // }
-
   .skills-background{
     @include box-2(100vw, 326px, 35px, 3744px);
 
@@ -702,8 +706,11 @@ a{
 
   .colab-section{
     float: right;
-     width: 100vw;
+     width: 90vw;
      margin-bottom: -97px;
+     margin-right: 20px;
+     padding: 10px;
+    
   }
 
   .collaboration-text{
@@ -716,6 +723,7 @@ a{
     @include box-4(#4F5461, 100vw, 84px, 35px, 4193px, Poppins, normal, 16px );
 
     line-height: 24px;
+    width: 100vw;
   }
 
   .footerBackground{
@@ -723,7 +731,7 @@ a{
 
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
   // transform: matrix(1, 0, 0, -1, 0, 0);
-  margin-top: 270px;
+  margin-top: 80px;
   padding-top: 32px;
   }
 
@@ -805,7 +813,7 @@ a{
   }
 
   .hline{
-    @include box-1(#9999FF, 100vw, 0, 21px, 5094px);
+    @include box-1(#9999FF, 95%, 0, 21px, 5094px);
     
     border: 2px solid #9999FF;
   }
@@ -830,19 +838,13 @@ a{
     margin-top: 108px;
   }
 
-  @media (min-width: 480px){
-    .fixx2{
-      
-    }
-  }
-
 @media (min-width: 480px){
   .siteNav{
     
     color: black;
     width: 20vw;
     display:inline-block;
-    margin-bottom: 648px;
+    margin-bottom: 380px;
   }
   .site-nav2{
     visibility: hidden !important;
@@ -919,26 +921,31 @@ a{
   }
 
 .big-words-mobile{
-  left: 300px;
+  margin-left: 10px;
 }
 
 .big-words-mobile2{
-  left: 300px;
+  margin-left: 10px;
 }
 
 .intro{
   width: 450px;
   left: 300px;
+  margin-left: 10px;
 }
 
 .social{
-  @include box-2(70vw, 51px, 300px, 350px);
+  @include box-2(69vw, 51px, 300px, 350px);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  // margin-left: 10px;
 }
 
 .social-1{
-  width: 25rem;
+  width: 20rem;
+  font-size: 1.1rem;
+  margin-left: -1vw;
+  margin-right: -70px;
 }
 
 .github{
@@ -964,13 +971,16 @@ a{
   display: flex;
   justify-content: space-evenly;
   float: right;
-  margin-top: 108px;
+  margin-top: 50px;
+  margin-right: 10px;
 }
 
 
 
 #portfolioDiv11{
-  margin-left: 5vw;
+  // margin-left: 54px;
+  margin-right: 10px;
+  
 }
 
  .fixx{
@@ -984,32 +994,33 @@ a{
   }
 
   .projects{
-    @include box-2(406px, 280px, 517px, 788px);
+    @include box-2(45vw, 280px, 517px, 788px);
 
     z-index: 2;
+    
   }
   .projects-pic{
-    @include box-2(406px, 280px, 517px, 788px);
+    @include box-2(50vw, 280px, 517px, 788px);
   }
 
   #second-div{
-    @include box-2(406px, 280px, 944px, 788px);
+    @include box-2(50vw, 280px, 944px, 788px);
   }
 
   #third-div{
-    @include box-2(406px, 280px, 517px, 1085px);
+    @include box-2(50vw, 280px, 517px, 1085px);
   }
 
   #fourth-div{
-    @include box-2(406px, 280px, 944px, 1085px);
+    @include box-2(50vw, 280px, 944px, 1085px);
   }
 
   #fifth-div{
-    @include box-2(406px, 280px, 517px, 1382px);
+    @include box-2(50vw, 280px, 517px, 1382px);
   }
 
   #sixth-div{
-    @include box-2(406px, 280px, 944px, 1382px);
+    @include box-2(50vw, 280px, 944px, 1382px);
   }
 
   #second{
@@ -1171,7 +1182,7 @@ a{
   }
 
   .projectText{
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
   .l-2L{
@@ -1269,13 +1280,18 @@ a{
 
   .portSec{
     width: 80vw;
+  
+  }
+
+  .firstButton{
+    margin-right: 5px;
   }
 
   //about-me
   .about-me-section{
   
   width: 55vw;
-  margin-top: 100px;
+  margin-top: 60px;
   // margin-left: 10vw;
 
   }
@@ -1300,8 +1316,9 @@ a{
 
   //LANGUAGES
   .languages-background{
-    width: 15vw;
-    height: 45vh;
+    width: 165px;
+    height: 414px;
+    margin-right: 10px;
   }
 
   .languages-text{
@@ -1314,8 +1331,8 @@ a{
   }
 
   .frameworks-background{
-    width: 15vw;
-    height: 486px;
+    width: 150px;
+    height: 414px;
   }
 
   .frameworks-text{
@@ -1327,8 +1344,8 @@ a{
   }
 
   .skills-background{
-    width: 15vw;
-    height: 45vh;
+    width: 150px;
+    height: 414px;
   }
 
   .skills-text{
@@ -1340,12 +1357,20 @@ a{
   }
 
   .set{
-    margin-right: 108px;
+  //  margin-right: 30px;
+  }
+
+  .skills-section{
+    height: 50vh;
+    width: 100vw;
+    margin-top: -150px;
+
   }
 
   //COLLABORATION
   .colab-section{
      width: 55vw;
+     margin-top: 70px;
   }
 
 
@@ -1428,7 +1453,7 @@ a{
     }
   
     .hline{
-      width: 98%;
+      width: 95%;
       margin-top: 0;
       float: right;
     }
@@ -1449,6 +1474,86 @@ a{
     //   margin-top: 75px;
     // }
 }
+
+@media (min-width: 650px){
+  .skills-background{
+    width: 200px;
+    margin-right: 10px;
+  }
+  .frameworks-background{
+    width: 200px;
+    margin-right: 10px;
+  }
+  .languages-background{
+    width: 200px;
+    margin-right: 10px;
+  }
+  .skills-section{
+    height: 50vh;
+    width: 100vw;
+    margin-top: -150px;
+
+  }
+}
+
+@media (min-width: 700px){
+  .projectText{
+    font-size: 1rem;
+  }
+  .skills-background{
+    width: 200px;
+    margin-right: 30px;
+  }
+  .frameworks-background{
+    width: 200px;
+    margin-right: 30px;
+  }
+  .languages-background{
+    width: 200px;
+    margin-right: 30px;
+  }
+
+}
+
+@media (min-width: 890px){
+  .skills-background{
+    width: 200px;
+    margin-right: 40px;
+  }
+  .frameworks-background{
+    width: 200px;
+    margin-right: 40px;
+  }
+  .languages-background{
+    width: 200px;
+    margin-right: 40px;
+  }
+.projects-pic{
+  width: 480px;
+}
+
+.projects{
+  width: 480px;
+}
+
+#third-div{
+  width: 480px;
+}
+
+#fourth-div{
+  width: 480px;
+}
+
+#fifth-div{
+  width: 480px;
+}
+
+#sixth-div{
+  width: 480px;
+}
+
+}
+
 @media (min-width: 1920px){
   .email{
     margin-top: -108px;
@@ -1459,16 +1564,22 @@ a{
   }
 
   .hline{
-    width: 98%;
+    width: 95%;
   }
 
   .footerBackground{
     margin-top: 50px;
   }
 
-  // #wordMargin1{
-  //   margin-top: 118px;
-  // }
+  .skills-background{
+    width: 230px;
+  }
+  .frameworks-background{
+    width: 230px;
+  }
+  .languages-background{
+    width: 230px;
+  }
 }
 
 // @media (min-width: 2075px){

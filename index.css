@@ -217,20 +217,23 @@ a {
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  margin-top: -10px; }
 
 .social-1 {
   z-index: 2;
   font-style: normal;
   font-family: Sora;
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #4F5461;
-  width: 100vw;
+  width: 80vw;
   height: 34px;
   left: 31px;
   top: 425px;
-  line-height: 20px; }
+  line-height: 20px;
+  margin-right: -10px;
+  width: 50vw; }
 
 .github {
   font-style: normal;
@@ -301,7 +304,8 @@ a {
   background-blend-mode: screen;
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
-  border-radius: 10px; }
+  border-radius: 10px;
+  background-repeat: no-repeat; }
 
 .projectText {
   font-size: .7rem; }
@@ -313,13 +317,14 @@ a {
   background: url("assets/img/Screenshot(15).png");
   object-fit: cover;
   background-blend-mode: screen;
-  top: 1012px; }
+  background-repeat: no-repeat; }
 
 #third-div {
   background: url("assets/img/Screenshot(27).png");
   object-fit: cover;
   background-blend-mode: screen;
-  top: 1382px; }
+  top: 1382px;
+  background-repeat: no-repeat; }
 
 #fourth-div {
   object-fit: cover;
@@ -612,7 +617,8 @@ a {
   top: 2798px; }
 
 .portSec {
-  width: 100vw; }
+  width: 100vw;
+  margin-top: -20px; }
 
 .firstButton {
   margin-right: 54px;
@@ -646,8 +652,8 @@ a {
   left: 35px;
   top: 2917px;
   line-height: 20px;
-  margin-bottom: 140px;
-  font-size: .6rem; }
+  margin-bottom: 25px;
+  font-size: .8rem; }
 
 /* Rectangle 11 */
 .get-resume {
@@ -657,7 +663,7 @@ a {
   left: 35px;
   top: 3065px;
   height: 3vh;
-  margin-bottom: 108px;
+  margin-bottom: 50px;
   margin-top: 11px;
   background: #4456FB;
   border-radius: 60px;
@@ -686,7 +692,7 @@ a {
   font-size: 16px;
   line-height: 105.3%;
   text-align: center;
-  margin-top: 108px; }
+  margin-top: 0; }
 
 /* Rectangle 33 */
 .languages-background {
@@ -797,8 +803,10 @@ a {
 
 .colab-section {
   float: right;
-  width: 100vw;
-  margin-bottom: -97px; }
+  width: 90vw;
+  margin-bottom: -97px;
+  margin-right: 20px;
+  padding: 10px; }
 
 .collaboration-text {
   font-style: normal;
@@ -822,7 +830,8 @@ a {
   height: 84px;
   left: 35px;
   top: 4193px;
-  line-height: 24px; }
+  line-height: 24px;
+  width: 100vw; }
 
 .footerBackground {
   font-style: normal;
@@ -831,7 +840,7 @@ a {
   left: 0;
   top: 4414px;
   background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
-  margin-top: 270px;
+  margin-top: 80px;
   padding-top: 32px; }
 
 #fname1 {
@@ -939,7 +948,7 @@ a {
   font-style: normal;
   z-index: 2;
   color: #9999FF;
-  width: 100vw;
+  width: 95%;
   height: 0;
   left: 21px;
   top: 5094px;
@@ -971,7 +980,7 @@ a {
     color: black;
     width: 20vw;
     display: inline-block;
-    margin-bottom: 648px; }
+    margin-bottom: 380px; }
 
   .site-nav2 {
     visibility: hidden !important; }
@@ -1035,26 +1044,30 @@ a {
     top: 170px; }
 
   .big-words-mobile {
-    left: 300px; }
+    margin-left: 10px; }
 
   .big-words-mobile2 {
-    left: 300px; }
+    margin-left: 10px; }
 
   .intro {
     width: 450px;
-    left: 300px; }
+    left: 300px;
+    margin-left: 10px; }
 
   .social {
     font-style: normal;
-    width: 70vw;
+    width: 69vw;
     height: 51px;
     left: 300px;
     top: 350px;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-evenly; }
 
   .social-1 {
-    width: 25rem; }
+    width: 20rem;
+    font-size: 1.1rem;
+    margin-left: -1vw;
+    margin-right: -70px; }
 
   .github {
     left: 900px;
@@ -1072,10 +1085,11 @@ a {
     display: flex;
     justify-content: space-evenly;
     float: right;
-    margin-top: 108px; }
+    margin-top: 50px;
+    margin-right: 10px; }
 
   #portfolioDiv11 {
-    margin-left: 5vw; }
+    margin-right: 10px; }
 
   .fixx {
     margin-right: 2vw; }
@@ -1090,7 +1104,7 @@ a {
 
   .projects {
     font-style: normal;
-    width: 406px;
+    width: 45vw;
     height: 280px;
     left: 517px;
     top: 788px;
@@ -1098,42 +1112,42 @@ a {
 
   .projects-pic {
     font-style: normal;
-    width: 406px;
+    width: 50vw;
     height: 280px;
     left: 517px;
     top: 788px; }
 
   #second-div {
     font-style: normal;
-    width: 406px;
+    width: 50vw;
     height: 280px;
     left: 944px;
     top: 788px; }
 
   #third-div {
     font-style: normal;
-    width: 406px;
+    width: 50vw;
     height: 280px;
     left: 517px;
     top: 1085px; }
 
   #fourth-div {
     font-style: normal;
-    width: 406px;
+    width: 50vw;
     height: 280px;
     left: 944px;
     top: 1085px; }
 
   #fifth-div {
     font-style: normal;
-    width: 406px;
+    width: 50vw;
     height: 280px;
     left: 517px;
     top: 1382px; }
 
   #sixth-div {
     font-style: normal;
-    width: 406px;
+    width: 50vw;
     height: 280px;
     left: 944px;
     top: 1382px; }
@@ -1317,7 +1331,7 @@ a {
     text-align: center; }
 
   .projectText {
-    font-size: 1rem; }
+    font-size: .8rem; }
 
   .l-2L {
     left: 965px;
@@ -1415,9 +1429,12 @@ a {
   .portSec {
     width: 80vw; }
 
+  .firstButton {
+    margin-right: 5px; }
+
   .about-me-section {
     width: 55vw;
-    margin-top: 100px; }
+    margin-top: 60px; }
 
   .about-me {
     width: 15vw; }
@@ -1430,8 +1447,9 @@ a {
     top: 1900px; }
 
   .languages-background {
-    width: 15vw;
-    height: 45vh; }
+    width: 165px;
+    height: 414px;
+    margin-right: 10px; }
 
   .languages-text {
     margin-left: 1vw; }
@@ -1440,8 +1458,8 @@ a {
     margin-left: 1vw; }
 
   .frameworks-background {
-    width: 15vw;
-    height: 486px; }
+    width: 150px;
+    height: 414px; }
 
   .frameworks-text {
     margin-left: 1vw; }
@@ -1450,8 +1468,8 @@ a {
     margin-left: 1vw; }
 
   .skills-background {
-    width: 15vw;
-    height: 45vh; }
+    width: 150px;
+    height: 414px; }
 
   .skills-text {
     margin-left: 1vw; }
@@ -1459,11 +1477,14 @@ a {
   .skills-text2 {
     margin-left: 1vw; }
 
-  .set {
-    margin-right: 108px; }
+  .skills-section {
+    height: 50vh;
+    width: 100vw;
+    margin-top: -150px; }
 
   .colab-section {
-    width: 55vw; }
+    width: 55vw;
+    margin-top: 70px; }
 
   .collaboration-text {
     width: 30vw; }
@@ -1522,7 +1543,7 @@ a {
     margin-left: 50vw; }
 
   .hline {
-    width: 98%;
+    width: 95%;
     margin-top: 0;
     float: right; }
 
@@ -1535,6 +1556,68 @@ a {
     display: flex;
     justify-content: flex-end;
     margin-right: 0; } }
+@media (min-width: 650px) {
+  .skills-background {
+    width: 200px;
+    margin-right: 10px; }
+
+  .frameworks-background {
+    width: 200px;
+    margin-right: 10px; }
+
+  .languages-background {
+    width: 200px;
+    margin-right: 10px; }
+
+  .skills-section {
+    height: 50vh;
+    width: 100vw;
+    margin-top: -150px; } }
+@media (min-width: 700px) {
+  .projectText {
+    font-size: 1rem; }
+
+  .skills-background {
+    width: 200px;
+    margin-right: 30px; }
+
+  .frameworks-background {
+    width: 200px;
+    margin-right: 30px; }
+
+  .languages-background {
+    width: 200px;
+    margin-right: 30px; } }
+@media (min-width: 890px) {
+  .skills-background {
+    width: 200px;
+    margin-right: 40px; }
+
+  .frameworks-background {
+    width: 200px;
+    margin-right: 40px; }
+
+  .languages-background {
+    width: 200px;
+    margin-right: 40px; }
+
+  .projects-pic {
+    width: 480px; }
+
+  .projects {
+    width: 480px; }
+
+  #third-div {
+    width: 480px; }
+
+  #fourth-div {
+    width: 480px; }
+
+  #fifth-div {
+    width: 480px; }
+
+  #sixth-div {
+    width: 480px; } }
 @media (min-width: 1920px) {
   .email {
     margin-top: -108px; }
@@ -1543,9 +1626,18 @@ a {
     margin-bottom: 216px; }
 
   .hline {
-    width: 98%; }
+    width: 95%; }
 
   .footerBackground {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+
+  .skills-background {
+    width: 230px; }
+
+  .frameworks-background {
+    width: 230px; }
+
+  .languages-background {
+    width: 230px; } }
 
 /*# sourceMappingURL=index.css.map */

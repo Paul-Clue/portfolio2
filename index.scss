@@ -269,7 +269,7 @@ a{
   .projects-pic{
     @include box-1(#FFFFFF, 100vw, 217.24px, 30px, 644px );
 
-    background: url("assets/img/Screenshot(15).png");
+    background: url("assets/img/screen.png");
     object-fit: cover;
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
@@ -311,7 +311,7 @@ a{
   }
 
   #fifth-div{
-    background: url("assets/img/Screenshot(17).png");
+    background: url("assets/img/crypto-app.png");
     object-fit: cover;
     //background: linear-gradient(248.05deg, #AE5BD6 24.1%, #4052F0 99.44%);
     background-blend-mode: screen;
@@ -1393,6 +1393,7 @@ a{
     // margin-left: -2vw;
     // margin-top: 0;
     float: right;
+
   }
 
   .social-footer{

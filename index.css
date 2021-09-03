@@ -299,7 +299,7 @@ a {
   height: 217.24px;
   left: 30px;
   top: 644px;
-  background: url("assets/img/Screenshot(15).png");
+  background: url("assets/img/screen.png");
   object-fit: cover;
   background-blend-mode: screen;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -332,7 +332,7 @@ a {
   top: 1754px; }
 
 #fifth-div {
-  background: url("assets/img/Screenshot(17).png");
+  background: url("assets/img/crypto-app.png");
   object-fit: cover;
   background-blend-mode: screen;
   top: 2126px; }

@@ -95,7 +95,7 @@ body {
   /* top: -35vw;
   left: -18vw; */
   /* margin-top: -40vh; */
-  margin-right:42vw;
+  margin-right:10vw;
 }
 
 .full-stack {
@@ -110,7 +110,7 @@ body {
 
 .work {
   margin-top: -5%;
-  width: 30vw;
+  width: 65vw;
   font-size: 3vw;
   font-family: Roboto Slab;
   /* text-shadow: .2vw .2vw .5vw black; */

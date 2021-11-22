@@ -158,12 +158,12 @@ body {
   margin-top: -160px;
 }
 
-.c1:hover {
+/* .c1:hover {
   box-shadow:.5vw .5vw .5vw .5vw rgb(95, 89, 89);
-  width: 24vw;
+  width: 40vw;
   height: 60vw;
   cursor:pointer;
-}
+} */
 
 .card-title {
   font-size: 3.5vw;

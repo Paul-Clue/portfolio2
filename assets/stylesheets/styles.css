@@ -142,7 +142,7 @@ body {
   width: 90vw;
   display: flex;
   flex-direction: column;
-  justify-content:space-evenly;
+  /* justify-content:space-evenly; */
   /* align-items: center; */
   text-align: center;
   /* position: relative; */
@@ -448,6 +448,8 @@ body {
   /* position: relative; */
   top: -1vh;
   border: 1vw solid yellow;
+  border-left: none;
+  border-right: none;
 }
 
 .contact-text {
@@ -509,13 +511,210 @@ form {
   margin-top: 3px;
 }
 
-@media screen and (max-width: 400px) {
-  
-}
-
 @media screen and (max-width: 300px) {
   .skill-list {
     margin-top: -10vw;
   }
 }
 
+@media screen and (min-width: 650px) {
+  .full-stack {
+    font-size: 3vw;
+  }
+
+  .work {
+    font-size: 2vw;
+    width: 35vw;
+  }
+
+  .slug {
+    margin-right: 37vw;
+  }
+
+  .projects {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    margin-right: 12.5vw;
+  }
+
+  .card {
+    width: 27vw;
+    height: 45vw;
+    margin-left:0vw;
+    margin-top: 0px;
+    margin-right: 0vw;
+  }
+
+  /* .c2 {
+    margin-left: 10vw;
+  } */
+
+  .card-title {
+    font-size: 2vw;
+  }
+  
+  .card-text {
+    font-size: 1.5vw;
+  }
+
+  .icon-pic {
+    margin-right: -20px;
+    margin-top: 0vh;
+    width: 4vw;
+  }
+
+  .design3-1 {
+    width: 20vw;
+    height: 180px;
+    margin-left: 10vw;
+    margin-top: -20px;
+    z-index: 0;
+  }
+
+  .design3-2 {
+    width: 20vw;
+    height: 180px;
+    margin-left: 0vw;
+    margin-top: -20px;
+    z-index: 0;
+  }
+
+  .design3-3 {
+    width: 20vw;
+    height: 180px;
+    margin-left: 0vw;
+    margin-top: -20px;
+    z-index: 0;
+  }
+
+  .about-head {
+    margin-top: 70px;
+  }
+
+  .about-me {
+    height: 20vw;
+  }
+  
+  .about-text {
+    font-size: 2vw;
+  }
+
+  .resume-button {
+    margin-top: 0vw;
+  }
+
+  .pro-head {
+    margin-top: 70px;
+  }
+  
+  .proficient-in {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 4vw;
+  }
+  
+  .skills-back {
+    width: 25vw;
+    height: 35vw;
+    margin-top: 0px;
+    margin-left: 4vw;
+  }
+  
+  .skill-list {
+    margin-left: -1.5vw;
+    margin-top: 0vw;
+    font-size: 3vw;
+  }
+  .list-text {
+    font-size: 2vw;
+  }
+  
+  .skills-text {
+    height: 25vw;
+    width: 20vw;
+    margin-left: 1vw;
+    margin-top: 5.5vw;
+  }
+  
+  .framework-back {
+    width: 25vw;
+    height: 35vw;
+    margin-top: 0px;
+    margin-left: 10vw;
+  }
+  
+  .framework-text {
+    height: 25vw;
+    width: 20vw;
+    margin-left: 1vw;
+    margin-top: 5.5vw;
+    font-size: 1.4vw;
+  }
+  
+  .languages-back {
+    width: 25vw;
+    height: 35vw;
+    margin-top: 0px;
+    margin-left: 10vw;
+  }
+  
+  .languages-text {
+    height: 25vw;
+    width: 20vw;
+    margin-left: 1vw;
+    margin-top: 5.5vw;
+    font-size: 1.4vw;
+  }
+  
+  /* FOOTER */
+  
+   .contact-head {
+    width: 100%;
+    font-size: 3vw;
+    margin-top: 70px;
+  }
+  
+  .contact {
+    width: 80vw;
+    height: 35vw;
+    background-color: rgba(25, 25, 112, 1);
+    /* position: relative; */
+    top: -1vh;
+    border-top: 1vw solid yellow;
+    border-bottom: 1vw solid yellow;
+    border-left:none;
+    border-right: none;
+  }
+  
+  .contact-text {
+    /* background-color: white; */
+    height: 75%;
+    width: 90%;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    padding: 1vw;
+    text-align: center;
+    font-family: Mukta, sans;
+    font-size: 2.5vw;
+    color: white;
+  }
+  
+  form {
+    margin-top: 0vw;
+    margin-left: 10vw;
+    width: 80vw;
+    /* display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; */
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .skill-list {
+    margin-left: 0;
+  }
+}

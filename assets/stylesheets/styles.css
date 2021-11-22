@@ -466,7 +466,7 @@ body {
 }
 
 form {
-  margin-top: -30vh;
+  margin-top: -12vw;
   margin-left: 10vw;
   width: 80vw;
   /* display: flex;
@@ -704,7 +704,7 @@ form {
   }
   
   form {
-    margin-top: 0vw;
+    margin-top: -4vw;
     margin-left: 10vw;
     width: 80vw;
     /* display: flex;

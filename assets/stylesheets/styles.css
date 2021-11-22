@@ -3,27 +3,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&family=Outfit:wght@600&family=Roboto+Slab:wght@500&display=swap');
 
 body {
-  height: 100%;
+  /* height: 100%; */
+  /* width: 100%; */
   background-color: whitesmoke;
 }
 
 .container {
-  height: 100%;
+  /* height: 100%; */
+  /* width: 120%; */
   border: 5px solid black;
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
 }
 
 /* HERO SECTION */
 .hero {
-  position: relative;
+  /* position: relative; */
   border: 2.5vw solid yellow;
   width: 35vw;
-  height: 70vh;
-  top: 20px;
+  height: 35vw;
+  top: 2vh;
   left: 15vw;
+  margin-top: 20px;
+  margin-left: 35vw;
   /* box-shadow: .5vw .5vw .5vw black; */
 }
 
@@ -42,24 +46,25 @@ body {
 .design2 {
   border-radius: 50%;
   width: 30vw;
-  height: 60vh;
+  height: 30vw;
   background-color:white;
   background-image:
   radial-gradient(midnightblue 9px, transparent 10px),
   repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
-  /* z-index: 1; */
 }
 
 .title {
   width: 60vw;
-  height: 50vh;
+  height: auto;
   /* background-color: red; */
   /* z-index: 2; */
   /* position: relative; */
-  top: -38vh;
+  /* top: -38vh; */
   right: 40vw;
+  margin-top: -22vw;
+  margin-right: 17%;
 }
 
 .name {
@@ -69,9 +74,10 @@ body {
   text-shadow: .2vw .2vw .5vw black;
   color: rgb(104, 94, 94);
   background-color: whitesmoke;
-  position: relative;
-  top: -40vh;
-  right: 3vw;
+  /* position: relative; */
+  /* top: -19vw;
+  right: 3vw; */
+  /* margin-top: 40px; */
 }
 
 .slug {
@@ -85,9 +91,11 @@ body {
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
    */
-  position: relative;
-  top: -70vh;
-  left: -18vw;
+  /* position: relative; */
+  /* top: -35vw;
+  left: -18vw; */
+  /* margin-top: -40vh; */
+  margin-right:42vw;
 }
 
 .full-stack {
@@ -120,26 +128,34 @@ body {
   text-align: center;
   color: rgb(104, 94, 94);
   /* background-color: white; */
-  position: relative;
-  top: -65vh;
+  /* position: relative; */
+  margin-top: 0vh;
+  margin-bottom: 20px;
 }
+
+/* .projects {
+  display: flex;
+  flex-direction: column;
+} */
 
 .projects {
   width: 90vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content:space-evenly;
   /* align-items: center; */
   text-align: center;
-  position: relative;
-  top: -63vh;
-  left: 0vw;
+  /* position: relative; */
+  /* top: -63vh;
+  left: 0vw; */
 }
 
 .card {
-  width: 25vw;
+  width: 40vw;
+  margin-left:25vw;
   box-shadow:.2vw .2vw .5vw rgb(95, 89, 89);
   z-index: 3;
+  margin-top: -160px;
 }
 
 .c1:hover {
@@ -165,56 +181,58 @@ body {
 }
 
 .icon-pic {
-  margin-right: -28px;
+  margin-right: 0px;
   margin-top: -2.5vh;
-  width: 55px;
+  width: 4vw;
 }
 
 .design3-1 {
-  /* border-radius: 50%; */
-  width: 25vw;
-  height: 55vh;
+  width: 40vw;
+  height: 180px;
   background-color:white;
   background-image:
   radial-gradient(rgb(56, 53, 53) 9px, transparent 10px),
   repeating-radial-gradient(yellow 0, yellow, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
-  position: absolute;
-  top: -4vh;
-  left: 30vw;
+  /* position: absolute; */
+  /* top: -4vw;
+  left: 30vw; */
+  margin-left: 20vw;
   z-index: 0;
 }
 
 .design3-2 {
-  /* border-radius: 50%; */
-  width: 25vw;
-  height: 55vh;
+  width: 40vw;
+  height: 180px;
   background-color:white;
   background-image:
   radial-gradient(yellow 9px, transparent 10px),
   repeating-radial-gradient(yellow 0, yellow 4px, transparent 5px, transparent 20px, yellow 21px, yellow 25px, transparent 26px, transparent 50px);
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
-  position: absolute;
-  top: 11vh;
-  left: 62.5vw;
+  /* position: absolute; */
+  /* top: 11vh;
+  left: 62.5vw; */
+  margin-left: 20vw;
+  margin-top: 20px;
   z-index: 0;
 }
 
 .design3-3 {
-  /* border-radius: 50%; */
-  width: 25vw;
-  height: 55vh;
+  width: 40vw;
+  height: 180px;
   background-color:white;
   background-image:
   radial-gradient(midnightblue 9px, transparent 10px),
   repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
-  position: absolute;
-  top: 10.5vh;
-  left: 2.5vw;
+  /* position: absolute; */
+  /* top: 10.5vh;
+  left: 2.5vw; */
+  margin-left: 20vw;
+  margin-top: 20px;
   z-index: 0;
 }
 
@@ -228,31 +246,32 @@ body {
   text-align: center;
   color: rgb(104, 94, 94);
   /* background-color: white; */
-  position: relative;
-  top: -40vh;
+  /* position: relative; */
+  /* top: -40vh; */
+  margin-top: 30px;
 }
 
 .about-me {
-  /* border-radius: 50%; */
   width: 80vw;
-  height: 25vh;
+  height: 25vw;
   background-color:white;
   background-image:
   radial-gradient(midnightblue 9px, transparent 10px),
   repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
-  position: relative;
+  /* position: relative; */
   top: -40vh;
-  left: 0vw;
+  /* left: 0vw; */
+  margin-top: 0px;
 }
 
 .about-text {
   background-color: white;
-  height: 75%;
+  height: 50%;
   width: 90%;
   margin-left: 4vw;
-  margin-top: 3vh;
+  margin-top: 5vh;
   padding: 1vw;
   text-align: center;
   font-family: Mukta, sans;
@@ -264,7 +283,27 @@ body {
   font-size: 1.4vw;
 }
 
+.button {
+  height: 5vw;
+  padding: 0vw;
+  padding-bottom: 5vw;
+}
+
 /* PROFICIENT */
+
+/* .cards {
+  width: 30vw;
+  margin-right: 100vw;
+}
+
+.c-body {
+  width: vw;
+  padding-left: 30vw;
+} */
+
+.card-subtitle {
+  font-size: 1.4vw;
+}
 
 .pro-head {
   width: 100%;
@@ -274,67 +313,78 @@ body {
   text-align: center;
   color: rgb(104, 94, 94);
   /* background-color: white; */
-  position: relative;
-  top: -17vh;
+  /* position: relative; */
+  /* top: -17vh; */
+  margin-top: 50px;
 }
 
 .proficient-in {
   width: 90vw;
   display: flex;
-  flex-direction: row;
-  justify-content:space-evenly;
+  flex-direction: column;
+  /* justify-content:space-evenly; */
   text-align: center;
-  position: relative;
-  top: -4vh;
+  /* position: relative; */
+  /* top: -4vh; */
+  margin-top: 20px;
 }
 
 .skills-back {
   width: 25vw;
-  height: 50vh;
+  height: 35vw;
   background-color:white;
   background-image:
   radial-gradient(midnightblue 9px, transparent 10px),
   repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
-  position: relative;
-  top: -10vh;
-  left: 0vw;
+  /* position: relative; */
+  /* top: -10vh;
+  left: 0vw; */
+  margin-top: 0px;
+  margin-left: 33vw;
+}
+
+.skill-list {
+  margin-left: -3vw;
+  margin-top: -5vw;
 }
 
 .skills-text {
   background-color: white;
-  height: 75%;
-  width: 90%;
-  margin-left: 3vw;
+  height: 25vw;
+  width: 30vw;
+  margin-left: -4vw;
   margin-top: 5.5vh;
-  padding: 1vw;
+  /* padding: 1vw; */
   text-align: center;
   font-family: Mukta, sans;
-  font-size: 1.4vw;
+  /* font-size: 1.4vw; */
 }
 
 .framework-back {
   width: 25vw;
-  height: 50vh;
+  height: 35vw;
   background-color:white;
   background-image:
   radial-gradient(midnightblue 9px, transparent 10px),
   repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
-  position: relative;
-  top: -10vh;
-  left: 0vw;
+  /* position: relative; */
+  /* top: -10vh;
+  left: 0vw; */
+  margin-top: 30px;
+  margin-left: 33vw;
 }
 
 .framework-text {
   background-color: white;
-  height: 75%;
-  width: 90%;
-  margin-left: 3vw;
+  height: 25vw;
+  width: 30vw;
+  margin-left: -4vw;
   margin-top: 5.5vh;
-  padding: 1vw;
+  /* padding: 1vw; */
   text-align: center;
   font-family: Mukta, sans;
   font-size: 1.4vw;
@@ -342,23 +392,25 @@ body {
 
 .languages-back {
   width: 25vw;
-  height: 50vh;
+  height: 35vw;
   background-color:white;
   background-image:
   radial-gradient(midnightblue 9px, transparent 10px),
   repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);
   background-size: 30px 30px, 90px 90px;
   background-position: 0 0;
-  position: relative;
-  top: -10vh;
-  left: 0vw;
+  /* position: relative; */
+  /* top: -10vh;
+  left: 0vw; */
+  margin-top: 10px;
+  margin-left: 33vw;
 }
 
 .languages-text {
   background-color: white;
-  height: 75%;
-  width: 90%;
-  margin-left: 3vw;
+  height: 25vw;
+  width: 30vw;
+  margin-left: -4vw;
   margin-top: 5.5vh;
   padding: 1vw;
   text-align: center;
@@ -376,15 +428,16 @@ body {
   text-align: center;
   color: rgb(104, 94, 94);
   /* background-color: white; */
-  position: relative;
-  top: -1vh;
+  /* position: relative; */
+  /* top: -1vh; */
+  margin-top: 30px;
 }
 
 .contact {
   width: 85vw;
-  height: 35vh;
+  height: 35vw;
   background-color: rgba(25, 25, 112, 1);
-  position: relative;
+  /* position: relative; */
   top: -1vh;
   border: 1vw solid yellow;
 }
@@ -403,9 +456,9 @@ body {
 }
 
 form {
-  margin-top: -20vh;
+  margin-top: -30vh;
   margin-left: 10vw;
-  width: 100%;
+  width: 80vw;
   /* display: flex;
   flex-direction: row;
   justify-content:space-evenly; */
@@ -444,6 +497,12 @@ form {
 } */
 
 #form-button {
-  margin-left: 26vw;
-  margin-top: 15vh;
-} 
+  margin-left: 20vw;
+  margin-top: 3px;
+}
+
+@media screen and (max-width: 300px) {
+  .skill-list {
+    margin-top: -10vw;
+  }
+}

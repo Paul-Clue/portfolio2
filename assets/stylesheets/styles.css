@@ -289,6 +289,9 @@ body {
   padding-bottom: 5vw;
   margin-bottom: 5vw;
 }
+.resume-button {
+  margin-top: -1.8vw;
+}
 
 /* PROFICIENT */
 
@@ -502,10 +505,8 @@ form {
   margin-top: 3px;
 }
 
-@media screen and (max-width: 375px) {
-  .resume-button {
-    margin-top: -3.4vw;
-  }
+@media screen and (max-width: 400px) {
+  
 }
 
 @media screen and (max-width: 300px) {

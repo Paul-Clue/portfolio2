@@ -352,18 +352,22 @@ body {
 .skill-list {
   margin-left: -3vw;
   margin-top: -5vw;
+  font-size: 3vw;
+}
+.list-text {
+  font-size: 2.5vw;
 }
 
 .skills-text {
   background-color: white;
-  height: 25vw;
+  height: 30vw;
   width: 30vw;
   margin-left: -4vw;
   margin-top: 5.5vh;
   /* padding: 1vw; */
   text-align: center;
   font-family: Mukta, sans;
-  /* font-size: 1.4vw; */
+  /* font-size: 3vw; */
 }
 
 .framework-back {
@@ -406,7 +410,7 @@ body {
   /* position: relative; */
   /* top: -10vh;
   left: 0vw; */
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 33vw;
 }
 
@@ -455,7 +459,7 @@ body {
   padding: 1vw;
   text-align: center;
   font-family: Mukta, sans;
-  font-size: 1.4vw;
+  font-size: 2.5vw;
   color: white;
 }
 

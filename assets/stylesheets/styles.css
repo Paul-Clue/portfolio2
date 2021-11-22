@@ -101,7 +101,7 @@ body {
 .full-stack {
   margin-top: 2vh;
   width: 30vw;
-  font-size: 3vw;
+  font-size: 4.5vw;
   font-family: Roboto Slab;
   /* text-shadow: .2vw .2vw .5vw black; */
   color: rgb(104, 94, 94);
@@ -111,7 +111,7 @@ body {
 .work {
   margin-top: -5%;
   width: 30vw;
-  font-size: 1.5vw;
+  font-size: 3vw;
   font-family: Roboto Slab;
   /* text-shadow: .2vw .2vw .5vw black; */
   color: rgb(104, 94, 94);
@@ -161,12 +161,12 @@ body {
 .c1:hover {
   box-shadow:.5vw .5vw .5vw .5vw rgb(95, 89, 89);
   width: 24vw;
-  height: 60vh;
+  height: 60vw;
   cursor:pointer;
 }
 
 .card-title {
-  font-size: 2vw;
+  font-size: 3.5vw;
   font-family: Outfit, sans;
   /* text-shadow: .2vw .2vw .5vw black; */
   /* color: rgb(51, 46, 46); */
@@ -176,13 +176,13 @@ body {
 
 .card-text {
   font-family: Mukta, sans;
-  font-size: 1.2vw;
+  font-size: 3vw;
   /* font-family: Mukta; */
 }
 
 .icon-pic {
   margin-right: 0px;
-  margin-top: -2.5vh;
+  margin-top: 0vh;
   width: 4vw;
 }
 
@@ -284,9 +284,10 @@ body {
 }
 
 .button {
-  height: 5vw;
+  height: 2vw;
   padding: 0vw;
   padding-bottom: 5vw;
+  margin-bottom: 5vw;
 }
 
 /* PROFICIENT */
@@ -501,8 +502,15 @@ form {
   margin-top: 3px;
 }
 
+@media screen and (max-width: 375px) {
+  .resume-button {
+    margin-top: -3.4vw;
+  }
+}
+
 @media screen and (max-width: 300px) {
   .skill-list {
     margin-top: -10vw;
   }
 }
+

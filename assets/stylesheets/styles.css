@@ -192,7 +192,7 @@ body {
 
 .about-me {
   width: 80vw;
-  height: 30vw;
+  height: 155vw;
   background-color:white;
   background-image:
   radial-gradient(midnightblue 9px, transparent 10px),
@@ -205,7 +205,7 @@ body {
 
 .about-text {
   background-color: white;
-  height: 90%;
+  height: 148vw;
   width: 90%;
   margin-left: 4vw;
   margin-top: 1.5vh;
@@ -213,6 +213,10 @@ body {
   text-align: center;
   font-family: Mukta, sans;
   font-size: 3vw;
+}
+
+.about-skills {
+  font-weight: bolder;
 }
 
 .resume {
@@ -494,11 +498,12 @@ form {
   }
 
   .about-me {
-    height: 20vw;
+    height: 70vw;
   }
   
   .about-text {
     font-size: 2vw;
+    height: 68vw;
   }
 
   .resume-button {
